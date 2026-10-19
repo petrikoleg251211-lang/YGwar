@@ -1,0 +1,733 @@
+# YUG_OOB - стартовий Order of Battle для Югославії
+# По 1 піхотній дивізії на кожну з 100 областей (state), в першій наземній провінції state.
+
+division_template = {
+	name = "Піхотна дивізія"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1-ша піхотна дивізія"
+		location = 1
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2-ша піхотна дивізія"
+		location = 496
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3-ша піхотна дивізія"
+		location = 406
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4-ша піхотна дивізія"
+		location = 147
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5-ша піхотна дивізія"
+		location = 152
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6-ша піхотна дивізія"
+		location = 134
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "7-ша піхотна дивізія"
+		location = 389
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "8-ша піхотна дивізія"
+		location = 251
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "9-ша піхотна дивізія"
+		location = 378
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "10-ша піхотна дивізія"
+		location = 15
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "11-ша піхотна дивізія"
+		location = 42
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "12-ша піхотна дивізія"
+		location = 278
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "13-ша піхотна дивізія"
+		location = 498
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "14-ша піхотна дивізія"
+		location = 88
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "15-ша піхотна дивізія"
+		location = 472
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "16-ша піхотна дивізія"
+		location = 223
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "17-ша піхотна дивізія"
+		location = 244
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "18-ша піхотна дивізія"
+		location = 154
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "19-ша піхотна дивізія"
+		location = 461
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "20-ша піхотна дивізія"
+		location = 29
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "21-ша піхотна дивізія"
+		location = 265
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "22-ша піхотна дивізія"
+		location = 149
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "23-ша піхотна дивізія"
+		location = 20
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "24-ша піхотна дивізія"
+		location = 208
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "25-ша піхотна дивізія"
+		location = 395
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "26-ша піхотна дивізія"
+		location = 349
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "27-ша піхотна дивізія"
+		location = 380
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "28-ша піхотна дивізія"
+		location = 464
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "29-ша піхотна дивізія"
+		location = 64
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "30-ша піхотна дивізія"
+		location = 69
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "31-ша піхотна дивізія"
+		location = 63
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "32-ша піхотна дивізія"
+		location = 355
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "33-ша піхотна дивізія"
+		location = 317
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "34-ша піхотна дивізія"
+		location = 197
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "35-ша піхотна дивізія"
+		location = 14
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "36-ша піхотна дивізія"
+		location = 122
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "37-ша піхотна дивізія"
+		location = 480
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "38-ша піхотна дивізія"
+		location = 453
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "39-ша піхотна дивізія"
+		location = 177
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "40-ша піхотна дивізія"
+		location = 179
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "41-ша піхотна дивізія"
+		location = 238
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "42-ша піхотна дивізія"
+		location = 489
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "43-ша піхотна дивізія"
+		location = 81
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "44-ша піхотна дивізія"
+		location = 221
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "45-ша піхотна дивізія"
+		location = 402
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "46-ша піхотна дивізія"
+		location = 334
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "47-ша піхотна дивізія"
+		location = 311
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "48-ша піхотна дивізія"
+		location = 83
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "49-ша піхотна дивізія"
+		location = 132
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "50-ша піхотна дивізія"
+		location = 190
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "51-ша піхотна дивізія"
+		location = 335
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "52-ша піхотна дивізія"
+		location = 306
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "53-ша піхотна дивізія"
+		location = 283
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "54-ша піхотна дивізія"
+		location = 421
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "55-ша піхотна дивізія"
+		location = 90
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "56-ша піхотна дивізія"
+		location = 263
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "57-ша піхотна дивізія"
+		location = 420
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "58-ша піхотна дивізія"
+		location = 141
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "59-ша піхотна дивізія"
+		location = 114
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "60-ша піхотна дивізія"
+		location = 56
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "61-ша піхотна дивізія"
+		location = 41
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "62-ша піхотна дивізія"
+		location = 215
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "63-ша піхотна дивізія"
+		location = 21
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "64-ша піхотна дивізія"
+		location = 376
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "65-ша піхотна дивізія"
+		location = 351
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "66-ша піхотна дивізія"
+		location = 198
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "67-ша піхотна дивізія"
+		location = 484
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "68-ша піхотна дивізія"
+		location = 131
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "69-ша піхотна дивізія"
+		location = 3
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "70-ша піхотна дивізія"
+		location = 409
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "71-ша піхотна дивізія"
+		location = 46
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "72-ша піхотна дивізія"
+		location = 4
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "73-ша піхотна дивізія"
+		location = 192
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "74-ша піхотна дивізія"
+		location = 145
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "75-ша піхотна дивізія"
+		location = 168
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "76-ша піхотна дивізія"
+		location = 348
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "77-ша піхотна дивізія"
+		location = 488
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "78-ша піхотна дивізія"
+		location = 363
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "79-ша піхотна дивізія"
+		location = 442
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "80-ша піхотна дивізія"
+		location = 193
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "81-ша піхотна дивізія"
+		location = 400
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "82-ша піхотна дивізія"
+		location = 462
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "83-ша піхотна дивізія"
+		location = 379
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "84-ша піхотна дивізія"
+		location = 256
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "85-ша піхотна дивізія"
+		location = 327
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "86-ша піхотна дивізія"
+		location = 308
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "87-ша піхотна дивізія"
+		location = 128
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "88-ша піхотна дивізія"
+		location = 112
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "89-ша піхотна дивізія"
+		location = 242
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "90-ша піхотна дивізія"
+		location = 72
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "91-ша піхотна дивізія"
+		location = 104
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "92-ша піхотна дивізія"
+		location = 202
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "93-ша піхотна дивізія"
+		location = 33
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "94-ша піхотна дивізія"
+		location = 261
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "95-ша піхотна дивізія"
+		location = 57
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "96-ша піхотна дивізія"
+		location = 5
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "97-ша піхотна дивізія"
+		location = 456
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "98-ша піхотна дивізія"
+		location = 398
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "99-ша піхотна дивізія"
+		location = 412
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "100-ша піхотна дивізія"
+		location = 424
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+}
+
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 50000
+		producer = YUG
+	}
+	add_equipment_to_stockpile = {
+		type = support_equipment_1
+		amount = 10000
+		producer = YUG
+	}
+}

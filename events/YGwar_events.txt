@@ -1,0 +1,34 @@
+add_namespace = YGwar
+
+country_event = {
+    id = YGwar.1
+    title = YGwar.1.t
+    desc = YGwar.1.d
+    picture = GFX_report_event_unrest_in_city
+
+    is_triggered_only = yes
+
+    trigger = {
+        tag = YUG
+        check_variable = { militia_loyalty < 50 }
+        NOT = { has_country_flag = YGwar_militia_incident_cooldown }
+    }
+
+    immediate = {
+        set_country_flag = { flag = YGwar_militia_incident_cooldown days = 60 }
+    }
+
+    option = {
+        name = YGwar.1.a
+        add_stability = -0.03
+        add_political_power = -20
+        add_to_variable = { militia_loyalty = -5 }
+        clamp_variable = { var = militia_loyalty min = 0 max = 100 }
+    }
+
+    option = {
+        name = YGwar.1.b
+        add_war_support = 0.02
+        add_stability = -0.05
+    }
+}

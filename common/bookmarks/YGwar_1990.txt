@@ -1,0 +1,21 @@
+bookmarks = {
+	bookmark = {
+		name = "YGWAR_BOOKMARK_1990_NAME"
+		desc = "YGWAR_BOOKMARK_1990_DESC"
+		date = 1990.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "YUG"
+		default = yes
+
+		"YUG" = {
+			history = "YGWAR_BOOKMARK_YUG_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345
+		}
+	}
+}

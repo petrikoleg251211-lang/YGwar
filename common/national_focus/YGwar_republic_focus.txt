@@ -1,0 +1,387 @@
+# YGwar - базові focus tree для 11 країн. Тільки їхні власні TAG, жодних ванільних.
+
+focus_tree = {
+	id = SVN_focus_tree
+	country = {
+		factor = 0
+		modifier = { add = 100 tag = SVN }
+	}
+
+	focus = {
+		id = SVN_consolidate_statehood
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 0
+		cost = 5
+		completion_reward = { add_stability = 0.05 }
+	}
+	focus = {
+		id = SVN_build_defence_forces
+		icon = GFX_goal_generic_army_doctrines
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = SVN_consolidate_statehood }
+		completion_reward = { add_war_support = 0.05 }
+	}
+	focus = {
+		id = SVN_seek_recognition
+		icon = GFX_goal_generic_political_pressure
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = SVN_consolidate_statehood }
+		completion_reward = { add_political_power = 50 }
+	}
+}
+
+focus_tree = {
+	id = CRO_focus_tree
+	country = {
+		factor = 0
+		modifier = { add = 100 tag = CRO }
+	}
+
+	focus = {
+		id = CRO_consolidate_statehood
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 0
+		cost = 5
+		completion_reward = { add_stability = 0.05 }
+	}
+	focus = {
+		id = CRO_build_defence_forces
+		icon = GFX_goal_generic_army_doctrines
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = CRO_consolidate_statehood }
+		completion_reward = { add_war_support = 0.05 }
+	}
+	focus = {
+		id = CRO_seek_recognition
+		icon = GFX_goal_generic_political_pressure
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = CRO_consolidate_statehood }
+		completion_reward = { add_political_power = 50 }
+	}
+}
+
+focus_tree = {
+	id = BOS_focus_tree
+	country = {
+		factor = 0
+		modifier = { add = 100 tag = BOS }
+	}
+
+	focus = {
+		id = BOS_consolidate_statehood
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 0
+		cost = 5
+		completion_reward = { add_stability = 0.05 }
+	}
+	focus = {
+		id = BOS_build_defence_forces
+		icon = GFX_goal_generic_army_doctrines
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = BOS_consolidate_statehood }
+		completion_reward = { add_war_support = 0.05 }
+	}
+	focus = {
+		id = BOS_seek_recognition
+		icon = GFX_goal_generic_political_pressure
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = BOS_consolidate_statehood }
+		completion_reward = { add_political_power = 50 }
+	}
+}
+
+focus_tree = {
+	id = SER_focus_tree
+	country = {
+		factor = 0
+		modifier = { add = 100 tag = SER }
+	}
+
+	focus = {
+		id = SER_consolidate_statehood
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 0
+		cost = 5
+		completion_reward = { add_stability = 0.05 }
+	}
+	focus = {
+		id = SER_build_defence_forces
+		icon = GFX_goal_generic_army_doctrines
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = SER_consolidate_statehood }
+		completion_reward = { add_war_support = 0.05 }
+	}
+	focus = {
+		id = SER_seek_recognition
+		icon = GFX_goal_generic_political_pressure
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = SER_consolidate_statehood }
+		completion_reward = { add_political_power = 50 }
+	}
+}
+
+focus_tree = {
+	id = MNT_focus_tree
+	country = {
+		factor = 0
+		modifier = { add = 100 tag = MNT }
+	}
+
+	focus = {
+		id = MNT_consolidate_statehood
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 0
+		cost = 5
+		completion_reward = { add_stability = 0.05 }
+	}
+	focus = {
+		id = MNT_build_defence_forces
+		icon = GFX_goal_generic_army_doctrines
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = MNT_consolidate_statehood }
+		completion_reward = { add_war_support = 0.05 }
+	}
+	focus = {
+		id = MNT_seek_recognition
+		icon = GFX_goal_generic_political_pressure
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = MNT_consolidate_statehood }
+		completion_reward = { add_political_power = 50 }
+	}
+}
+
+focus_tree = {
+	id = MAC_focus_tree
+	country = {
+		factor = 0
+		modifier = { add = 100 tag = MAC }
+	}
+
+	focus = {
+		id = MAC_consolidate_statehood
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 0
+		cost = 5
+		completion_reward = { add_stability = 0.05 }
+	}
+	focus = {
+		id = MAC_build_defence_forces
+		icon = GFX_goal_generic_army_doctrines
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = MAC_consolidate_statehood }
+		completion_reward = { add_war_support = 0.05 }
+	}
+	focus = {
+		id = MAC_seek_recognition
+		icon = GFX_goal_generic_political_pressure
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = MAC_consolidate_statehood }
+		completion_reward = { add_political_power = 50 }
+	}
+}
+
+focus_tree = {
+	id = VOJ_focus_tree
+	country = {
+		factor = 0
+		modifier = { add = 100 tag = VOJ }
+	}
+
+	focus = {
+		id = VOJ_consolidate_statehood
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 0
+		cost = 5
+		completion_reward = { add_stability = 0.05 }
+	}
+	focus = {
+		id = VOJ_build_defence_forces
+		icon = GFX_goal_generic_army_doctrines
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = VOJ_consolidate_statehood }
+		completion_reward = { add_war_support = 0.05 }
+	}
+	focus = {
+		id = VOJ_seek_recognition
+		icon = GFX_goal_generic_political_pressure
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = VOJ_consolidate_statehood }
+		completion_reward = { add_political_power = 50 }
+	}
+}
+
+focus_tree = {
+	id = KOS_focus_tree
+	country = {
+		factor = 0
+		modifier = { add = 100 tag = KOS }
+	}
+
+	focus = {
+		id = KOS_consolidate_statehood
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 0
+		cost = 5
+		completion_reward = { add_stability = 0.05 }
+	}
+	focus = {
+		id = KOS_build_defence_forces
+		icon = GFX_goal_generic_army_doctrines
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = KOS_consolidate_statehood }
+		completion_reward = { add_war_support = 0.05 }
+	}
+	focus = {
+		id = KOS_seek_recognition
+		icon = GFX_goal_generic_political_pressure
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = KOS_consolidate_statehood }
+		completion_reward = { add_political_power = 50 }
+	}
+}
+
+focus_tree = {
+	id = RSB_focus_tree
+	country = {
+		factor = 0
+		modifier = { add = 100 tag = RSB }
+	}
+
+	focus = {
+		id = RSB_consolidate_statehood
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 0
+		cost = 5
+		completion_reward = { add_stability = 0.05 }
+	}
+	focus = {
+		id = RSB_build_defence_forces
+		icon = GFX_goal_generic_army_doctrines
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = RSB_consolidate_statehood }
+		completion_reward = { add_war_support = 0.05 }
+	}
+	focus = {
+		id = RSB_seek_recognition
+		icon = GFX_goal_generic_political_pressure
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = RSB_consolidate_statehood }
+		completion_reward = { add_political_power = 50 }
+	}
+}
+
+focus_tree = {
+	id = RSK_focus_tree
+	country = {
+		factor = 0
+		modifier = { add = 100 tag = RSK }
+	}
+
+	focus = {
+		id = RSK_consolidate_statehood
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 0
+		cost = 5
+		completion_reward = { add_stability = 0.05 }
+	}
+	focus = {
+		id = RSK_build_defence_forces
+		icon = GFX_goal_generic_army_doctrines
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = RSK_consolidate_statehood }
+		completion_reward = { add_war_support = 0.05 }
+	}
+	focus = {
+		id = RSK_seek_recognition
+		icon = GFX_goal_generic_political_pressure
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = RSK_consolidate_statehood }
+		completion_reward = { add_political_power = 50 }
+	}
+}
+
+focus_tree = {
+	id = HRZ_focus_tree
+	country = {
+		factor = 0
+		modifier = { add = 100 tag = HRZ }
+	}
+
+	focus = {
+		id = HRZ_consolidate_statehood
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 0
+		cost = 5
+		completion_reward = { add_stability = 0.05 }
+	}
+	focus = {
+		id = HRZ_build_defence_forces
+		icon = GFX_goal_generic_army_doctrines
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = HRZ_consolidate_statehood }
+		completion_reward = { add_war_support = 0.05 }
+	}
+	focus = {
+		id = HRZ_seek_recognition
+		icon = GFX_goal_generic_political_pressure
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = HRZ_consolidate_statehood }
+		completion_reward = { add_political_power = 50 }
+	}
+}
+

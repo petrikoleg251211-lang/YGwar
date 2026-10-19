@@ -1,0 +1,37 @@
+yugoslavia_theater = {
+    name = theater_yugoslavia
+    regions = {
+        1
+    }
+
+    cancel = {
+        has_war = no
+    }
+
+    ai_will_do = {
+        base = 1
+        modifier = {
+            factor = 0
+            has_war = no
+        }
+    }
+}
+
+adriatic_theater = {
+    name = theater_adriatic
+    regions = {
+        2
+    }
+
+    cancel = {
+        has_war = no
+    }
+
+    ai_will_do = {
+        base = 1
+        modifier = {
+            factor = 0
+            has_war = no
+        }
+    }
+}

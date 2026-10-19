@@ -1,0 +1,3 @@
+anti_submarine_strategy_required_trigger = {
+    always = no
+}

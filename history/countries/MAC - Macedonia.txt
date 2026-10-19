@@ -1,0 +1,26 @@
+capital = 7
+# Macedonia (MAC) - заготовка. Стан на момент створення: 0 states, тег не існує в грі (dormant),
+# доки не буде реалізований механізм відколу від YUG (release_nation через фокуси).
+# TODO: capital = <state_id> - призначити після того, як буде готова прив'язка
+# реальних міст/муніципалітетів до state ID на цій карті.
+set_research_slots = 2
+set_stability = 0.45
+set_war_support = 0.10
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1990.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+set_popularities = {
+    neutrality = 50
+    communism = 25
+    democratic = 25
+}
+add_ideas = {
+    partial_mobilization
+    export_focus
+    extensive_conscription
+}
+
+recruit_character = MAC_YGwar_leader

@@ -1,0 +1,3 @@
+is_available_to_collaboration_government = {
+    is_subject = no
+}

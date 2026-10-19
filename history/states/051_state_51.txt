@@ -1,0 +1,16 @@
+state={
+    id=51
+    name="STATE_51"
+    manpower=143403
+    state_category = rural
+    history={
+        owner = YUG
+        add_core_of = YUG
+        victory_points = {
+            335 1
+        }
+    }
+    provinces={
+        335 346 353 366 374 375
+    }
+}

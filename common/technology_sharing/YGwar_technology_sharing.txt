@@ -1,0 +1,6 @@
+technology_sharing_group = {
+    id = continuous_tech_share
+    name = YGwar_tech_share
+    desc = YGwar_tech_share_desc
+    research_sharing_per_country_bonus = 0.0
+}

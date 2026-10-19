@@ -1,0 +1,60 @@
+leader_traits = {
+	brilliant_strategist = {
+		type = land
+		trait_type = personality_trait
+		attack_skill = 1
+		planning_skill = 1
+	}
+	inflexible_strategist = {
+		type = land
+		trait_type = personality_trait
+		defense_skill = 1
+		logistics_skill = 1
+	}
+	politically_connected = {
+		type = land
+		trait_type = personality_trait
+		experience_gain_factor = -0.1
+	}
+	infantry_officer = {
+		type = land
+		trait_type = personality_trait
+		skill_factor = 0.1
+	}
+	cavalry_officer = {
+		type = land
+		trait_type = personality_trait
+		skill_factor = 0.1
+	}
+	armor_officer = {
+		type = land
+		trait_type = personality_trait
+		skill_factor = 0.1
+	}
+	engineer_officer = {
+		type = land
+		trait_type = personality_trait
+		skill_factor = 0.1
+	}
+	panzer_leader = {
+		type = corps_commander
+		trait_type = assignable_trait
+		modifier = {
+			army_armor_attack_factor = 0.10
+		}
+	}
+	trickster = {
+		type = corps_commander
+		trait_type = assignable_trait
+		modifier = {
+			recon_factor = 0.20
+		}
+	}
+	winter_specialist = {
+		type = corps_commander
+		trait_type = assignable_trait
+		modifier = {
+			winter_attrition_factor = -0.50
+		}
+	}
+}

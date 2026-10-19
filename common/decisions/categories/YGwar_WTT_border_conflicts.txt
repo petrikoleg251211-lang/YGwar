@@ -1,0 +1,2 @@
+YGwar_WTT_border_conflicts = {
+}

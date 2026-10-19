@@ -1,0 +1,10 @@
+YGwar_militia_category = {
+	icon = decision_category_generic
+
+	priority = 100
+
+	allowed = { always = yes }
+	visible = {
+		tag = YUG
+	}
+}

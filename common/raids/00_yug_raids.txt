@@ -1,0 +1,3 @@
+# YGwar - raids disabled for YUG-only country setup
+types = {
+}

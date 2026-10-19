@@ -1,0 +1,469 @@
+faction_goal_a_large_faction = {
+    name = a_large_faction_goal_name
+    description = a_large_faction_goal_desc
+    category = medium_term
+    group = FOCUS_FILTER_POLITICAL_CHARACTER
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_a_military_base = {
+    name = a_military_base_goal_name
+    description = a_military_base_goal_desc
+    category = medium_term
+    group = FOCUS_FILTER_INDUSTRY
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_aggressive_defense = {
+    name = aggressive_defense_goal_name
+    description = aggressive_defense_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_WAR_SUPPORT
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_air_superiority = {
+    name = air_superiority_goal_name
+    description = air_superiority_goal_desc
+    category = medium_term
+    group = FOCUS_FILTER_AIRFORCE
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_align_china = {
+    name = align_china_goal_name
+    description = align_china_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_POLITICAL_CHARACTER
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_an_infantry_army = {
+    name = an_infantry_army_goal_name
+    description = an_infantry_army_goal_desc
+    category = medium_term
+    group = FOCUS_FILTER_ARMY
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_building_up_guam = {
+    name = building_up_guam_goal_name
+    description = building_up_guam_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_INDUSTRY
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_coastal_security = {
+    name = coastal_security_goal_name
+    description = coastal_security_goal_desc
+    category = medium_term
+    group = FOCUS_FILTER_NAVY
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_control_chinese_metals = {
+    name = control_chinese_metals_goal_name
+    description = control_chinese_metals_goal_desc
+    category = long_term
+    group = resources_to_market_icon
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_control_indonesian_riches = {
+    name = control_indonesian_riches_goal_name
+    description = control_indonesian_riches_goal_desc
+    category = long_term
+    group = resources_to_market_icon
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_control_panama_canal = {
+    name = control_panama_canal_goal_name
+    description = control_panama_canal_goal_desc
+    category = long_term
+    group = strategic_locations_icon
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_control_persian_oil = {
+    name = control_persian_oil_goal_name
+    description = control_persian_oil_goal_desc
+    category = long_term
+    group = resources_to_market_icon
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_control_ploiesti_oil_fields = {
+    name = control_ploiesti_oil_fields_goal_name
+    description = control_ploiesti_oil_fields_goal_desc
+    category = long_term
+    group = resources_to_market_icon
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_control_suez_canal = {
+    name = control_suez_canal_goal_name
+    description = control_suez_canal_goal_desc
+    category = long_term
+    group = strategic_locations_icon
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_control_the_chinese_capitals = {
+    name = control_the_chinese_capitals_goal_name
+    description = control_the_chinese_capitals_goal_desc
+    category = long_term
+    group = strategic_locations_icon
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_control_the_chinese_coast = {
+    name = control_the_chinese_coast_goal_name
+    description = control_the_chinese_coast_goal_desc
+    category = long_term
+    group = strategic_locations_icon
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_convoy_escort_force = {
+    name = convoy_escort_force_goal_name
+    description = convoy_escort_force_goal_desc
+    category = medium_term
+    group = FOCUS_FILTER_NAVY
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_defeat_of_anti_communists = {
+    name = defeat_of_anti_communists_goal_name
+    description = defeat_of_anti_communists_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_WAR_SUPPORT
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_defeat_of_anti_fascists = {
+    name = defeat_of_anti_fascists_goal_name
+    description = defeat_of_anti_fascists_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_WAR_SUPPORT
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_defeat_of_communism = {
+    name = defeat_of_communism_goal_name
+    description = defeat_of_communism_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_WAR_SUPPORT
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_defeat_of_fascism = {
+    name = defeat_of_fascism_goal_name
+    description = defeat_of_fascism_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_WAR_SUPPORT
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_defeating_our_enemies = {
+    name = defeating_our_enemies_goal_name
+    description = defeating_our_enemies_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_WAR_SUPPORT
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_disarm_aggression_central_powers = {
+    name = disarm_aggression_central_powers_goal_name
+    description = disarm_aggression_central_powers_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_WAR_SUPPORT
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_eliminate_the_twin_threats = {
+    name = eliminate_the_twin_threats_goal_name
+    description = eliminate_the_twin_threats_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_WAR_SUPPORT
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_guerilla_expansion = {
+    name = guerilla_expansion_goal_name
+    description = guerilla_expansion_goal_desc
+    category = medium_term
+    group = FOCUS_FILTER_ARMY
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_indifference_is_a_threat = {
+    name = indifference_is_a_threat_goal_name
+    description = indifference_is_a_threat_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_POLITICAL_CHARACTER
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_industrial_domination = {
+    name = industrial_domination_goal_name
+    description = industrial_domination_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_INDUSTRY
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_industrial_expansion = {
+    name = industrial_expansion_goal_name
+    description = industrial_expansion_goal_desc
+    category = medium_term
+    group = FOCUS_FILTER_INDUSTRY
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_industrial_research = {
+    name = industrial_research_goal_name
+    description = industrial_research_goal_desc
+    category = medium_term
+    group = FOCUS_FILTER_INDUSTRY
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_liberate_territory = {
+    name = liberate_territory_goal_name
+    description = liberate_territory_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_WAR_SUPPORT
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_military_infrastructure = {
+    name = military_infrastructure_goal_name
+    description = military_infrastructure_goal_desc
+    category = medium_term
+    group = FOCUS_FILTER_INDUSTRY
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_no_japanese_in_china = {
+    name = no_japanese_in_china_goal_name
+    description = no_japanese_in_china_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_WAR_SUPPORT
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_one_germany = {
+    name = one_germany_goal_name
+    description = one_germany_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_POLITICAL_CHARACTER
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_resource_control = {
+    name = resource_control_goal_name
+    description = resource_control_goal_desc
+    category = long_term
+    group = resources_to_market_icon
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_rule_the_waves = {
+    name = rule_the_waves_goal_name
+    description = rule_the_waves_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_NAVY
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_secure_european_continent = {
+    name = secure_european_continent_goal_name
+    description = secure_european_continent_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_WAR_SUPPORT
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_secure_the_oil_supply = {
+    name = secure_the_oil_supply_goal_name
+    description = secure_the_oil_supply_goal_desc
+    category = long_term
+    group = resources_to_market_icon
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_strategic_bombing_campaign = {
+    name = strategic_bombing_campaign_goal_name
+    description = strategic_bombing_campaign_goal_desc
+    category = medium_term
+    group = FOCUS_FILTER_AIRFORCE
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_the_arteries_of_trade = {
+    name = the_arteries_of_trade_goal_name
+    description = the_arteries_of_trade_goal_desc
+    category = long_term
+    group = resources_to_market_icon
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_the_atomic_race = {
+    name = the_atomic_race_goal_name
+    description = the_atomic_race_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_INDUSTRY
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_the_red_tide = {
+    name = the_red_tide_goal_name
+    description = the_red_tide_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_WAR_SUPPORT
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_the_two_seas = {
+    name = the_two_seas_goal_name
+    description = the_two_seas_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_NAVY
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_undoing_brest_litowsk = {
+    name = undoing_brest_litowsk_goal_name
+    description = undoing_brest_litowsk_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_WAR_SUPPORT
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_unlock_military = {
+    name = unlock_military_goal_name
+    description = unlock_military_goal_desc
+    category = medium_term
+    group = FOCUS_FILTER_ARMY
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_unlock_research = {
+    name = unlock_research_goal_name
+    description = unlock_research_goal_desc
+    category = medium_term
+    group = FOCUS_FILTER_RESEARCH
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_war_on_communism = {
+    name = war_on_communism_goal_name
+    description = war_on_communism_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_WAR_SUPPORT
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}
+
+faction_goal_war_on_communism_in_asia = {
+    name = war_on_communism_in_asia_goal_name
+    description = war_on_communism_in_asia_goal_desc
+    category = long_term
+    group = FOCUS_FILTER_WAR_SUPPORT
+    visible = { always = no }
+    available = { always = no }
+    completed = { always = no }
+}

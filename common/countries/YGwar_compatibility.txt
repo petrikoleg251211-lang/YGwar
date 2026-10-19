@@ -1,0 +1,9 @@
+# YGwar compatibility country definition.
+# These TAGs are parser-compatibility identifiers only.
+# No history/states/flags are assigned to them by YGwar.
+# The actual 1990 world remains the 12 YGwar countries.
+
+graphical_culture = eastern_european_gfx
+graphical_culture_2d = eastern_european_2d
+color = rgb { 70 70 70 }
+color_ui = rgb { 70 70 70 }

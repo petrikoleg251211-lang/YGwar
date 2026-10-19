@@ -1,0 +1,18 @@
+# Neutral compatibility ideas for vanilla special-project scripted effects.
+# YGwar replaces the common/ideas registry, so these IDs must be present locally.
+ideas = {
+    country = {
+        special_project_consumer_costs_high = {
+            picture = generic_industry
+            modifier = { }
+        }
+        special_project_consumer_costs_medium = {
+            picture = generic_industry
+            modifier = { }
+        }
+        special_project_consumer_costs_low = {
+            picture = generic_industry
+            modifier = { }
+        }
+    }
+}

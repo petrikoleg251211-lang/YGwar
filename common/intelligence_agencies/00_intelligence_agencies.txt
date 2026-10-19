@@ -1,0 +1,12 @@
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_yug
+	names = { "UDBA" "KOS" }
+	default = { tag = YUG }
+	available = { original_tag = YUG }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "Obavestajna Sluzba" }
+	default = { always = yes }
+	available = { always = yes }
+}

@@ -1,0 +1,32 @@
+YGwar_militia_category = {
+
+	YUG_discipline_militia = {
+		icon = decision_generic_military_pressure
+
+
+		priority = 5
+
+		allowed = { always = yes }
+		visible = { tag = YUG }
+
+		available = {
+			check_variable = { militia_loyalty < 100 }
+		}
+
+		cost = 50
+		days_re_enable = 30
+
+		complete_effect = {
+			random_list = {
+				65 = {
+					add_to_variable = { militia_loyalty = 15 }
+					clamp_variable = { var = militia_loyalty min = 0 max = 100 }
+				}
+				35 = {
+					add_stability = -0.02
+					add_to_variable = { militia_loyalty = 5 }
+				}
+			}
+		}
+	}
+}

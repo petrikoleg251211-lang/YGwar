@@ -1,0 +1,7 @@
+# Disabled compatibility category required by a vanilla DLC mission reference.
+lar_local_recruitment = {
+    icon = decision_category_generic
+    priority = -1000
+    allowed = { always = no }
+    visible = { always = no }
+}

@@ -1,0 +1,140 @@
+focus_tree = {
+    id = YUG_focus_tree
+    country = {
+        factor = 0
+        modifier = { add = 100 tag = YUG }
+    }
+
+    focus = {
+        id = YUG_organize_the_federation
+        icon = GFX_goal_generic_national_unity
+        x = 0
+        y = 0
+        cost = 5
+        completion_reward = { add_stability = 0.05 }
+    }
+
+    focus = {
+        id = YUG_strengthen_federal_institutions
+        icon = GFX_goal_generic_political_pressure
+        x = -2
+        y = 1
+        cost = 5
+        prerequisite = { focus = YUG_organize_the_federation }
+        completion_reward = { add_political_power = 50 }
+    }
+
+    focus = {
+        id = YUG_modernize_the_economy
+        icon = GFX_goal_generic_construct_civilian
+        x = 2
+        y = 1
+        cost = 5
+        prerequisite = { focus = YUG_organize_the_federation }
+        completion_reward = {
+            add_political_power = 25
+            add_stability = 0.03
+        }
+    }
+
+    focus = {
+        id = YUG_reform_the_army
+        icon = GFX_goal_generic_army_doctrines
+        x = -2
+        y = 2
+        cost = 5
+        prerequisite = { focus = YUG_strengthen_federal_institutions }
+        completion_reward = { add_war_support = 0.05 }
+    }
+
+    focus = {
+        id = YUG_defend_the_adriatic
+        icon = GFX_goal_generic_construct_military
+        x = 2
+        y = 2
+        cost = 5
+        prerequisite = { focus = YUG_modernize_the_economy }
+        completion_reward = { add_war_support = 0.05 }
+    }
+
+    focus = {
+        id = YUG_yugoslav_future
+        icon = GFX_goal_generic_major_war
+        x = 0
+        y = 3
+        cost = 5
+        prerequisite = { focus = YUG_reform_the_army }
+        prerequisite = { focus = YUG_defend_the_adriatic }
+        completion_reward = { add_political_power = 100 add_stability = 0.05 }
+    }
+
+    # --- Гілка "Криза федерації" ---
+    # Використовує federation_cohesion (100 = міцна федерація, 0 = розпад).
+    # ЩЕ НЕ прив'язано до конкретних республік/території (release_nation) -
+    # це буде додано, коли з'явиться прив'язка states -> республіки.
+
+    focus = {
+        id = YUG_rising_nationalism
+        icon = GFX_goal_generic_demand_territory
+        x = 0
+        y = 4
+        cost = 7
+        prerequisite = { focus = YUG_yugoslav_future }
+        completion_reward = {
+            add_to_variable = { federation_cohesion = -15 }
+            clamp_variable = { var = federation_cohesion min = 0 max = 100 }
+            add_stability = -0.05
+            set_country_flag = YUG_nationalism_rising
+        }
+    }
+
+    focus = {
+        id = YUG_crackdown_on_separatism
+        icon = GFX_goal_generic_political_pressure
+        x = -2
+        y = 5
+        cost = 10
+        prerequisite = { focus = YUG_rising_nationalism }
+        mutually_exclusive = { focus = YUG_allow_self_determination }
+        completion_reward = {
+            add_war_support = 0.10
+            add_stability = -0.05
+            add_to_variable = { militia_loyalty = -10 }
+            clamp_variable = { var = militia_loyalty min = 0 max = 100 }
+            set_country_flag = YUG_chose_crackdown
+        }
+    }
+
+    focus = {
+        id = YUG_allow_self_determination
+        icon = GFX_goal_generic_national_unity
+        x = 2
+        y = 5
+        cost = 10
+        prerequisite = { focus = YUG_rising_nationalism }
+        mutually_exclusive = { focus = YUG_crackdown_on_separatism }
+        completion_reward = {
+            add_stability = 0.05
+            add_to_variable = { federation_cohesion = -20 }
+            clamp_variable = { var = federation_cohesion min = 0 max = 100 }
+            set_country_flag = YUG_chose_self_determination
+        }
+    }
+
+    focus = {
+        id = YUG_federal_collapse
+        icon = GFX_goal_generic_major_war
+        x = 0
+        y = 6
+        cost = 10
+        available = {
+            check_variable = { federation_cohesion < 41 }
+        }
+        prerequisite = { focus = YUG_crackdown_on_separatism focus = YUG_allow_self_determination }
+        completion_reward = {
+            # TODO: тут будуть release_nation для SVN/CRO/BOS/SER/MNT/MAC,
+            # коли з'явиться прив'язка реальних states до республік.
+            add_political_power = 50
+        }
+    }
+}

@@ -1,0 +1,77 @@
+generic = {
+	air_wing_names_template = YGWAR_AIR_WING_NAME
+	fleet_names_template = YGWAR_FLEET_NAME
+	task_force_names_template = YGWAR_TASK_FORCE_NAME
+}
+
+YUG = {
+	air_wing_names_template = YGWAR_AIR_WING_NAME
+	fleet_names_template = YGWAR_FLEET_NAME
+	task_force_names_template = YGWAR_TASK_FORCE_NAME
+}
+
+SVN = {
+	air_wing_names_template = YGWAR_AIR_WING_NAME
+	fleet_names_template = YGWAR_FLEET_NAME
+	task_force_names_template = YGWAR_TASK_FORCE_NAME
+}
+
+CRO = {
+	air_wing_names_template = YGWAR_AIR_WING_NAME
+	fleet_names_template = YGWAR_FLEET_NAME
+	task_force_names_template = YGWAR_TASK_FORCE_NAME
+}
+
+BOS = {
+	air_wing_names_template = YGWAR_AIR_WING_NAME
+	fleet_names_template = YGWAR_FLEET_NAME
+	task_force_names_template = YGWAR_TASK_FORCE_NAME
+}
+
+SER = {
+	air_wing_names_template = YGWAR_AIR_WING_NAME
+	fleet_names_template = YGWAR_FLEET_NAME
+	task_force_names_template = YGWAR_TASK_FORCE_NAME
+}
+
+MNT = {
+	air_wing_names_template = YGWAR_AIR_WING_NAME
+	fleet_names_template = YGWAR_FLEET_NAME
+	task_force_names_template = YGWAR_TASK_FORCE_NAME
+}
+
+MAC = {
+	air_wing_names_template = YGWAR_AIR_WING_NAME
+	fleet_names_template = YGWAR_FLEET_NAME
+	task_force_names_template = YGWAR_TASK_FORCE_NAME
+}
+
+VOJ = {
+	air_wing_names_template = YGWAR_AIR_WING_NAME
+	fleet_names_template = YGWAR_FLEET_NAME
+	task_force_names_template = YGWAR_TASK_FORCE_NAME
+}
+
+KOS = {
+	air_wing_names_template = YGWAR_AIR_WING_NAME
+	fleet_names_template = YGWAR_FLEET_NAME
+	task_force_names_template = YGWAR_TASK_FORCE_NAME
+}
+
+RSB = {
+	air_wing_names_template = YGWAR_AIR_WING_NAME
+	fleet_names_template = YGWAR_FLEET_NAME
+	task_force_names_template = YGWAR_TASK_FORCE_NAME
+}
+
+RSK = {
+	air_wing_names_template = YGWAR_AIR_WING_NAME
+	fleet_names_template = YGWAR_FLEET_NAME
+	task_force_names_template = YGWAR_TASK_FORCE_NAME
+}
+
+HRZ = {
+	air_wing_names_template = YGWAR_AIR_WING_NAME
+	fleet_names_template = YGWAR_FLEET_NAME
+	task_force_names_template = YGWAR_TASK_FORCE_NAME
+}

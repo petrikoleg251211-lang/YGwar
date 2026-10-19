@@ -1,0 +1,8 @@
+on_actions = {
+	on_weekly_YUG = {
+		random_events = {
+			25 = YGwar.1
+			75 = 0
+		}
+	}
+}

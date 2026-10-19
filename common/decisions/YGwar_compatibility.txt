@@ -1,0 +1,12 @@
+# Disabled compatibility mission ID referenced by vanilla DLC scripts.
+lar_local_recruitment = {
+    SWI_building_up_military_readiness_mission = {
+        icon = decision_generic_military_pressure
+        priority = -1000
+        allowed = { always = no }
+        visible = { always = no }
+        available = { always = no }
+        cost = 0
+        complete_effect = { }
+    }
+}

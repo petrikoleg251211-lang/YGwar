@@ -1,0 +1,105 @@
+# YGwar occupation laws
+# Minimal self-contained occupation law system for YGwar
+
+ygwar_military_occupation = {
+	icon = 6
+	sound_effect = "Martial_Law_Interface_Military_Governor_Occupation"
+
+	default_law = yes
+	starting_law = yes
+	state_modifier = {
+		resistance_target = -0.35
+		compliance_gain = -0.045
+		required_garrison_factor = 0.0
+		local_resources = 0.10
+		local_manpower = 0.08
+	}
+
+	suppressed_state_modifier = {
+		resistance_target = -0.35
+		compliance_gain = -0.045
+		required_garrison_factor = 0.0
+	}
+	
+	ai_will_do = {
+		base = 100
+	}
+}
+
+ygwar_local_police = {
+	icon = 11
+	sound_effect = "Martial_Law_Interface_Local_Police_Force_Garrison"
+
+	state_modifier = {
+		resistance_target = -0.15
+		compliance_gain = -0.025
+		required_garrison_factor = -0.35
+		resistance_damage_to_garrison = -0.50
+		local_factories = 0.00
+		local_resources = 0.00
+	}
+
+	suppressed_state_modifier = {
+		resistance_target = -0.15
+		compliance_gain = -0.025
+		required_garrison_factor = -0.35
+		resistance_damage_to_garrison = -0.50
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+
+ygwar_harsh_occupation = {
+	icon = 17
+	sound_effect = "Martial_Law_Interface_Harsh_Quotas_Occupation"
+
+	fallback_law = ygwar_military_occupation
+
+	state_modifier = {
+		resistance_target = -0.40
+		compliance_gain = -0.08
+		required_garrison_factor = 0.30
+		resistance_damage_to_garrison = 0.60
+		local_factories = 0.20
+		local_resources = 0.40
+	}
+
+	ai_will_do = {
+		base = 25
+	}
+}
+
+
+# Compatibility definitions for vanilla resistance activity scripts.
+# They do not replace the YGwar occupation laws.
+harsh_quotas_occupation = {
+	icon = 17
+	sound_effect = "Martial_Law_Interface_Harsh_Quotas_Occupation"
+	fallback_law = ygwar_military_occupation
+	state_modifier = {
+		resistance_target = -0.40
+		compliance_gain = -0.08
+		required_garrison_factor = 0.30
+		resistance_damage_to_garrison = 0.60
+		local_factories = 0.20
+		local_resources = 0.40
+	}
+	ai_will_do = { base = 0 }
+}
+
+forced_labor_occupation = {
+	icon = 17
+	sound_effect = "Martial_Law_Interface_Harsh_Quotas_Occupation"
+	fallback_law = ygwar_military_occupation
+	state_modifier = {
+		resistance_target = -0.50
+		compliance_gain = -0.10
+		required_garrison_factor = 0.50
+		resistance_damage_to_garrison = 0.80
+		local_factories = 0.30
+		local_resources = 0.50
+	}
+	ai_will_do = { base = 0 }
+}

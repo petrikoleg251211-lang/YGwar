@@ -1,0 +1,10 @@
+winter = {
+    start_date=00.12.01
+    end_date=00.02.28
+    hsv_north={ 0 0.1 1 }
+    colorbalance_north={ 0.9 0.9 1 }
+    hsv_center={ 0 1 1 }
+    colorbalance_center={ 1 1 1 }
+    hsv_south={ 0 1 1 }
+    colorbalance_south={ 1 1 1 }
+}

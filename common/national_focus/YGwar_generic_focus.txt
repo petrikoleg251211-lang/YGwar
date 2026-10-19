@@ -1,0 +1,16 @@
+# YGwar: обов'язкове дефолтне focus tree.
+# Рушій падає ще до головного меню, якщо common/national_focus замінено (replace_path),
+# а жодного focus_tree з default = yes у моді немає.
+focus_tree = {
+	id = generic_focus
+	default = yes
+
+	focus = {
+		id = YGW_generic_placeholder
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 0
+		cost = 1
+		completion_reward = { }
+	}
+}

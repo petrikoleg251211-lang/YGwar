@@ -1,0 +1,23 @@
+is_chinese_warlord = {
+    always = no
+}
+
+NORDIC_basic_joint_trigger = {
+    always = no
+}
+
+NOR_prep_his_mod_remove_trigger = {
+    always = no
+}
+
+NOR_prep_fasc_mod_remove_trigger = {
+    always = no
+}
+
+CZE_RUT_is_not_its_own_thing = {
+    always = no
+}
+
+PHI_SEA = {
+    always = no
+}

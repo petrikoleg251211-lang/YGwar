@@ -1,0 +1,8 @@
+enemy_has_equal_or_better_radar_tech_trigger = {
+    FROM = {
+        OR = {
+            has_tech = radio_detection
+            has_tech = cavity_magnatron
+        }
+    }
+}

@@ -1,0 +1,61 @@
+#reload countrycolors
+
+YUG = {
+    color = rgb { 200 200 200 }
+    color_ui = rgb { 200 200 200 }
+}
+
+SVN = {
+    color = rgb { 255 255 255 }
+    color_ui = rgb { 255 255 255 }
+}
+
+CRO = {
+    color = rgb { 255 0 0 }
+    color_ui = rgb { 255 0 0 }
+}
+
+BOS = {
+    color = rgb { 0 100 200 }
+    color_ui = rgb { 0 100 200 }
+}
+
+SER = {
+    color = rgb { 200 0 0 }
+    color_ui = rgb { 200 0 0 }
+}
+
+MNT = {
+    color = rgb { 150 0 0 }
+    color_ui = rgb { 150 0 0 }
+}
+
+MAC = {
+    color = rgb { 255 200 0 }
+    color_ui = rgb { 255 200 0 }
+}
+
+VOJ = {
+    color = rgb { 100 150 255 }
+    color_ui = rgb { 100 150 255 }
+}
+
+KOS = {
+    color = rgb { 50 50 150 }
+    color_ui = rgb { 50 50 150 }
+}
+
+RSB = {
+    color = rgb { 150 150 150 }
+    color_ui = rgb { 150 150 150 }
+}
+
+RSK = {
+    color = rgb { 180 180 180 }
+    color_ui = rgb { 180 180 180 }
+}
+
+HRZ = {
+    color = rgb { 120 80 40 }
+    color_ui = rgb { 120 80 40 }
+}

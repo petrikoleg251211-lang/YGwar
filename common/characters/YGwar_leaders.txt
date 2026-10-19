@@ -1,0 +1,98 @@
+characters = {
+    YUG_YGwar_leader = {
+        name = YUG_YGwar_leader
+        country_leader = {
+            ideology = despotism
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+    SVN_YGwar_leader = {
+        name = SVN_YGwar_leader
+        country_leader = {
+            ideology = conservatism
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+    CRO_YGwar_leader = {
+        name = CRO_YGwar_leader
+        country_leader = {
+            ideology = conservatism
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+    BOS_YGwar_leader = {
+        name = BOS_YGwar_leader
+        country_leader = {
+            ideology = despotism
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+    SER_YGwar_leader = {
+        name = SER_YGwar_leader
+        country_leader = {
+            ideology = despotism
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+    MNT_YGwar_leader = {
+        name = MNT_YGwar_leader
+        country_leader = {
+            ideology = despotism
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+    MAC_YGwar_leader = {
+        name = MAC_YGwar_leader
+        country_leader = {
+            ideology = despotism
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+    VOJ_YGwar_leader = {
+        name = VOJ_YGwar_leader
+        country_leader = {
+            ideology = despotism
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+    KOS_YGwar_leader = {
+        name = KOS_YGwar_leader
+        country_leader = {
+            ideology = conservatism
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+    RSB_YGwar_leader = {
+        name = RSB_YGwar_leader
+        country_leader = {
+            ideology = fascism_ideology
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+    RSK_YGwar_leader = {
+        name = RSK_YGwar_leader
+        country_leader = {
+            ideology = fascism_ideology
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+    HRZ_YGwar_leader = {
+        name = HRZ_YGwar_leader
+        country_leader = {
+            ideology = fascism_ideology
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+}

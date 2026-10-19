@@ -1,0 +1,35 @@
+continuous_focus_palette = {
+	id = generic_focus
+	country = { factor = 1 }
+	default = yes
+	reset_on_civilwar = no
+	position = { x = 50 y = 1000 }
+
+	focus = {
+		id = continuous_naval_production
+		icon = GFX_goal_continuous_naval_production
+		available = { always = yes }
+		modifier = { industrial_capacity_dockyard = 0.2 }
+		ai_will_do = { factor = 1 }
+		daily_cost = 1
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = continuous_air_production
+		icon = GFX_goal_continuous_air_production
+		available = { always = yes }
+		modifier = { air_accidents_factor = -0.15 }
+		ai_will_do = { factor = 1 }
+		daily_cost = 1
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = continuous_non_factory_construct
+		icon = GFX_goal_continuous_non_factory_construct
+		available = { always = yes }
+		modifier = { production_speed_infrastructure_factor = 0.10 }
+		ai_will_do = { factor = 1 }
+		daily_cost = 1
+		available_if_capitulated = yes
+	}
+}

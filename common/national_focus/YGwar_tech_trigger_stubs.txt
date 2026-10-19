@@ -1,0 +1,149 @@
+focus_tree = {
+	id = ygwar_tech_trigger_stubs_never_used
+	country = { factor = 0 }
+	default = no
+	focus = {
+		id = ITA_italian_tankettes
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = wuw_HUN_the_toldi
+		icon = GFX_goal_generic_national_unity
+		x = 1
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = GER_advanced_panzer_research
+		icon = GFX_goal_generic_national_unity
+		x = 2
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = ITA_end_fiat_ansaldo_duopoly
+		icon = GFX_goal_generic_national_unity
+		x = 3
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = ITA_modernize_ansaldo_facilities
+		icon = GFX_goal_generic_national_unity
+		x = 4
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = wuw_HUN_the_turan
+		icon = GFX_goal_generic_national_unity
+		x = 5
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = wuw_HUN_assault_gun_focus
+		icon = GFX_goal_generic_national_unity
+		x = 6
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = ITA_ferrea_mole_ferreo_cuore
+		icon = GFX_goal_generic_national_unity
+		x = 7
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = GER_expand_kummersdorfs_capacity
+		icon = GFX_goal_generic_national_unity
+		x = 8
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = ITA_capo_supremo
+		icon = GFX_goal_generic_national_unity
+		x = 9
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = ITA_modern_musculus
+		icon = GFX_goal_generic_national_unity
+		x = 10
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = ITA_a_time_for_war
+		icon = GFX_goal_generic_national_unity
+		x = 11
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = JAP_the_ultimate_tank
+		icon = GFX_goal_generic_national_unity
+		x = 12
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = PHI_weapons_of_war
+		icon = GFX_goal_generic_national_unity
+		x = 13
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = FIN_tire_factory_at_nokia
+		icon = GFX_goal_generic_national_unity
+		x = 14
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = GER_anschluss
+		icon = GFX_goal_generic_national_unity
+		x = 15
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = GER_fallschirmjager
+		icon = GFX_goal_generic_national_unity
+		x = 16
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = AFG_expand_quami_template
+		icon = GFX_goal_generic_national_unity
+		x = 17
+		y = 0
+		cost = 10
+		completion_reward = { }
+	}
+}

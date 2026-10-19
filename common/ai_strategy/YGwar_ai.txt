@@ -1,0 +1,79 @@
+# YGwar - власний AI. Цілі тільки серед 12 тегів мода (пункт 8 плану).
+# type: antagonize = вважає ворогом / хоче війни, protect = захищає, befriend = дружить, alliance = шукає союз
+# Це ПЕРША ЧЕРНЕТКА відносин - пропиши свої значення (value 0..200).
+
+YGwar_ai_YUG = {
+	enable = { tag = YUG }
+	abort = { always = no }
+	ai_strategy = { type = antagonize id = "SVN" value = 100 }
+	ai_strategy = { type = antagonize id = "CRO" value = 100 }
+	ai_strategy = { type = protect id = "SER" value = 100 }
+}
+YGwar_ai_SVN = {
+	enable = { tag = SVN }
+	abort = { always = no }
+	ai_strategy = { type = antagonize id = "YUG" value = 100 }
+	ai_strategy = { type = befriend id = "CRO" value = 100 }
+}
+YGwar_ai_CRO = {
+	enable = { tag = CRO }
+	abort = { always = no }
+	ai_strategy = { type = antagonize id = "YUG" value = 100 }
+	ai_strategy = { type = antagonize id = "RSK" value = 200 }
+	ai_strategy = { type = befriend id = "SVN" value = 100 }
+	ai_strategy = { type = befriend id = "HRZ" value = 100 }
+}
+YGwar_ai_BOS = {
+	enable = { tag = BOS }
+	abort = { always = no }
+	ai_strategy = { type = antagonize id = "RSB" value = 200 }
+	ai_strategy = { type = antagonize id = "HRZ" value = 50 }
+}
+YGwar_ai_SER = {
+	enable = { tag = SER }
+	abort = { always = no }
+	ai_strategy = { type = protect id = "RSK" value = 100 }
+	ai_strategy = { type = protect id = "RSB" value = 100 }
+	ai_strategy = { type = protect id = "MNT" value = 50 }
+	ai_strategy = { type = antagonize id = "KOS" value = 100 }
+}
+YGwar_ai_MNT = {
+	enable = { tag = MNT }
+	abort = { always = no }
+	ai_strategy = { type = befriend id = "SER" value = 100 }
+}
+YGwar_ai_MAC = {
+	enable = { tag = MAC }
+	abort = { always = no }
+	ai_strategy = { type = befriend id = "SER" value = 25 }
+}
+YGwar_ai_VOJ = {
+	enable = { tag = VOJ }
+	abort = { always = no }
+	ai_strategy = { type = befriend id = "SER" value = 100 }
+}
+YGwar_ai_KOS = {
+	enable = { tag = KOS }
+	abort = { always = no }
+	ai_strategy = { type = antagonize id = "SER" value = 150 }
+}
+YGwar_ai_RSB = {
+	enable = { tag = RSB }
+	abort = { always = no }
+	ai_strategy = { type = antagonize id = "BOS" value = 200 }
+	ai_strategy = { type = befriend id = "SER" value = 150 }
+	ai_strategy = { type = befriend id = "RSK" value = 100 }
+}
+YGwar_ai_RSK = {
+	enable = { tag = RSK }
+	abort = { always = no }
+	ai_strategy = { type = antagonize id = "CRO" value = 200 }
+	ai_strategy = { type = befriend id = "SER" value = 150 }
+	ai_strategy = { type = befriend id = "RSB" value = 100 }
+}
+YGwar_ai_HRZ = {
+	enable = { tag = HRZ }
+	abort = { always = no }
+	ai_strategy = { type = befriend id = "CRO" value = 150 }
+	ai_strategy = { type = antagonize id = "BOS" value = 100 }
+}
