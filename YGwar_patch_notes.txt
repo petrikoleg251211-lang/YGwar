@@ -1,0 +1,148 @@
+YGwar patch notes
+=================
+
+BOM stripped from active TXT files:
+  common/collections/collections.txt
+  common/units/names_railway_guns/YGwar_railway_gun_names.txt
+  common/units/names_divisions/YUG_names_divisions.txt
+  common/military_industrial_organization/organizations/00_generic_organization.txt
+
+Compatibility TAGs added from current error log:
+  AFA
+  AFG
+  ALB
+  ALG
+  AST
+  AUS
+  AZR
+  BAN
+  BEL
+  BHR
+  BLC
+  BRA
+  BRN
+  BSK
+  BUK
+  BUL
+  CHI
+  CHM
+  CIN
+  COG
+  CRI
+  CZE
+  DAG
+  DEN
+  DJI
+  EGY
+  ENG
+  EST
+  FIN
+  FRA
+  FSA
+  GAM
+  GDC
+  GER
+  GNA
+  GNB
+  GRE
+  GSM
+  GXC
+  HAR
+  HBC
+  HOL
+  HUN
+  ICE
+  IMO
+  INS
+  IRQ
+  ITA
+  JAP
+  JOR
+  KAS
+  KAZ
+  KBK
+  KHI
+  KHM
+  KKP
+  KLT
+  KUM
+  KUR
+  KYR
+  LAT
+  LBA
+  LEB
+  LIT
+  LUX
+  MAL
+  MAN
+  MEN
+  MLD
+  MLI
+  MOR
+  MRT
+  NGA
+  NGR
+  NOR
+  NXM
+  OMA
+  PAK
+  PAL
+  PAR
+  PER
+  POL
+  POR
+  PRC
+  QAT
+  RAJ
+  RIF
+  RKH
+  RNG
+  ROM
+  SAB
+  SAU
+  SEN
+  SHX
+  SIC
+  SIE
+  SIK
+  SIN
+  SLO
+  SND
+  SOK
+  SOM
+  SOV
+  SPR
+  SUD
+  SWE
+  SWI
+  SYR
+  TAJ
+  TAT
+  TMS
+  TUN
+  TUR
+  UAE
+  URG
+  USA
+  UZB
+  VOL
+  WES
+  XIC
+  XSM
+  YEM
+  YUN
+
+Achievements replacement: common/achievements/_YGwar_empty.txt
+MIO compatibility stubs: GER_focke_wulf_organization, JAP_mitsubishi_heavy_industries_organization, JAP_sasebo_naval_arsenal_organization
+
+v6 (error.log fixes, 2026-10-19)
+================================
+- common/dynamic_modifiers/YGwar_dynamic_modifiers.txt: added sabotaged_resources (effect-less compat stub).
+- common/collections/collections.txt: removed has_autonomy_state = autonomy_dominion (state no longer exists in this mod).
+- common/unit_leader/00_traits.txt: experience_gain_factor / skill_factor were invalid at trait level -> replaced.
+- localisation: YGwar_tech_share(+_desc) added (ru/en); STATE_x and VICTORY_POINTS_x names for all 100 states
+  in localisation/replace/ (built from tools/state_names.csv with tools/build_state_names.py);
+  removed localisation/english/state_names_l_english.yml (it only contained STATE_1 = "Dalmatia").
+- gfx/flags: RSK and RSB flags for all ideologies (neutrality/democratic/fascism/communism) in 3 sizes.
+- map/buildings.txt line 3043: dockyard moved inland (x 1516 -> 1510).
+- tools/sanitize_vanilla_techs.py: removes missing-TAG references from vanilla technologies (run locally, see README_v6.txt).

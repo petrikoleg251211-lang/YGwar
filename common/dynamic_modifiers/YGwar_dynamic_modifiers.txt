@@ -1,0 +1,9 @@
+# YGwar: compatibility stub.
+# common/dynamic_modifiers is replaced by this mod, but the base resistance system
+# (common/resistance_activity) and clear_sabotaged_resources_if_necesary still reference
+# the dynamic modifier "sabotaged_resources". It is declared here without effects so the
+# references resolve. Add state resource modifiers here later if sabotage should matter.
+sabotaged_resources = {
+	enable = { always = yes }
+	remove_trigger = { always = no }
+}

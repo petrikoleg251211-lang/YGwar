@@ -1,0 +1,101 @@
+﻿state_id;vp_province;state_name_ru;state_name_en;vp_city_ru;vp_city_en;match_distance_deg(>0.15=check)
+1;1;Прекмурье;Prekmurje;Мурска-Собота;Murska Sobota;0.08
+2;496;Струмица;Strumica;Струмица;Strumica;0.05
+3;406;Пелешац;Pelješac;Стон;Ston;0.14
+4;158;Юго-Восточный Банат;Jugoistočni Banat;Вршац;Vršac;0.11
+5;171;Южная Истрия;Južna Istra;Пула;Pula;0.06
+6;150;Посавина;Posavina;Славонски-Брод;Slavonski Brod;0.08
+7;389;Рашка;Raška;Нови-Пазар;Novi Pazar;0.08
+8;288;Далматинская Загора;Dalmatinska zagora;Книн;Knin;0.08
+9;378;Пирот;Pirotski okrug;Пирот;Pirot;0.05
+10;19;Посочье;Posočje;Толмин;Tolmin;0.06
+11;42;Северная Бачка;Severna Bačka;Суботица;Subotica;0.13
+12;305;Романия;Romanija;Соколац;Sokolac;0.06
+13;502;Охрид;Ohrid;Охрид;Ohrid;0.08
+14;148;Слунь;Kordun (Slunj);Слунь;Slunj;0.08
+15;476;Бар;Primorje;Бар;Bar;0.01
+16;253;Неготинская Краина;Negotinska krajina;Неготин;Negotin;0.08
+17;293;Шумадия;Šumadija;Крагуевац;Kragujevac;0.06
+18;170;Сремска-Митровица;Mačva-Srem;Сремска-Митровица;Sremska Mitrovica;0.05
+19;473;Куманово;Kumanovo;Куманово;Kumanovo;0.05
+20;58;Билогора;Bilogora;Беловар;Bjelovar;0.06
+21;266;Травник;Travnik;Травник;Travnik;0.06
+22;204;Санский-Мост;Sanski Most;Санский-Мост;Sanski Most;0.11
+23;20;Верхняя Савинья;Zgornja Savinjska dolina;Мозирье;Mozirje;0.12
+24;208;Лика;Lika;Госпич;Gospić;0.07
+25;395;Биело-Поле;Bijelo Polje;Биело-Поле;Bijelo Polje;0.07
+26;349;Ниш;Nišava;Ниш;Niš;0.19
+27;380;Бол;Brač (Bol);Бол;Bol;0.04
+28;464;Призрен;Prizren;Призрен;Prizren;0.02
+29;80;Карст;Kras;Сежана;Sežana;0.09
+30;69;Северный Банат;Severni Banat;Кикинда;Kikinda;0.07
+31;74;Осиек;Osijek;Осиек;Osijek;0.13
+32;355;Фоча;Foča;Фоча;Foča;0.13
+33;356;Иваница;Ivanjica;Иваница;Ivanjica;0.17
+34;197;Тузла;Tuzla;Тузла;Tuzla;0.22
+35;14;Хорватское Загорье;Hrvatsko Zagorje;Крапина;Krapina;0.09
+36;122;Горски-Котар;Gorski Kotar;Дельнице;Delnice;0.08
+37;491;Берово;Berovo;Берово;Berovo;0.07
+38;453;Герцег-Нови;Herceg Novi;Герцег-Нови;Herceg Novi;0.08
+39;196;Верхняя Лика;Gornja Lika;Коренница;Korenica;0.15
+40;188;Южный Банат;Južni Banat;Панчево;Pančevo;0.1
+41;259;Колубара;Kolubara;Валево;Valjevo;0.1
+42;506;Битола;Pelagonija;Битола;Bitola;0.08
+43;107;Баново;Banovina;Сисак;Sisak;0.08
+44;236;Млава;Zapadno Pomoravlje (Mlava);Петровац;Petrovac na Mlavi;0.19
+45;402;Лесковац;Jablanica;Лесковац;Leskovac;0.12
+46;359;Мостар;Mostar;Мостар;Mostar;0.02
+47;319;Цетинская Краина;Cetinska krajina;Синь;Sinj;0.04
+48;116;Пожежская котловина;Požeška kotlina;Пожега;Požega;0.04
+49;138;Срем (Хорватия);Srijem;Винковци;Vinkovci;0.14
+50;194;Баня-Лука;Banja Luka;Баня-Лука;Banja Luka;0.09
+51;335;Кралево;Raška (Kraljevo);Кралево;Kraljevo;0.18
+52;307;Коньиц;Konjic;Коньиц;Konjic;0.07
+53;296;Зайчар;Zaječar;Зайчар;Zaječar;0.06
+54;439;Приштина;Priština;Приштина;Priština;0.09
+55;130;Южная Бачка;Južna Bačka;Бачка-Паланка;Bačka Palanka;0.01
+56;280;Северная Далмация;Sjeverna Dalmacija;Задар;Zadar;0.06
+57;420;Беране;Berane;Беране;Berane;0.1
+58;141;Западная Славония;Zapadna Slavonija;Нова-Градишка;Nova Gradiška;0.07
+59;126;Западная Истрия;Zapadna Istra;Буе;Buje;0.05
+60;75;Доленьская;Dolenjska;Ново-Место;Novo Mesto;0.06
+61;49;Горишка;Goriška;Нова-Горица;Nova Gorica;0.02
+62;243;Дрвар;Drvar;Дрвар;Drvar;0.08
+63;52;Любляна;Ljubljana;Любляна;Ljubljana;0.12
+64;376;Сеница;Sjenica;Сеница;Sjenica;0.12
+65;351;Княжевац;Knjaževac;Княжевац;Knjaževac;0.12
+66;201;Мачва;Mačva;Шабац;Šabac;0.14
+67;490;Штип;Štip;Штип;Štip;0.05
+68;157;Алибунар;Alibunar;Алибунар;Alibunar;0.06
+69;3;Подравье;Podravje;Марибор;Maribor;0.02
+70;409;Центральная Черногория;Central Montenegro;Никшич;Nikšić;0.12
+71;87;Потисье;Potisje;Бечей;Bečej;0.13
+72;13;Меджимурье;Međimurje;Чаковец;Čakovec;0.05
+73;216;Теслич;Teslić;Теслич;Teslić;0.01
+74;176;Оточац;Otočac;Оточац;Otočac;0.03
+75;187;Црес и Лошинь;Cres–Lošinj;Мали-Лошинь;Mali Lošinj;0.19
+76;368;Плевля;Pljevlja;Плевля;Pljevlja;0.15
+77;488;Гостивар;Gostivar;Гостивар;Gostivar;0.16
+78;363;Макарская ривьера;Makarska rivijera;Макарска;Makarska;0.07
+79;459;Метохия;Metohija;Джяковица;Đakovica;0.05
+80;193;Подунавье;Podunavlje;Смедерево;Smederevo;0.1
+81;427;Дубровник;Dubrovnik;Дубровник;Dubrovnik;0.09
+82;477;Скопье;Skopje;Скопье;Skopje;0.1
+83;393;Подуево;Podujevo;Подуево;Podujevo;0.11
+84;271;Високо;Zenica–Visoko;Вареш;Vareš;0.03
+85;327;Шибеник;Šibenik;Шибеник;Šibenik;0.06
+86;354;Расина;Rasina;Крушевац;Kruševac;0.14
+87;161;Бания;Banija;Двор;Dvor;0.12
+88;112;Средний Банат;Srednji Banat;Зренянин;Zrenjanin;0.1
+89;277;Гламоч;Glamoč;Гламоч;Glamoč;0.04
+90;72;Вировитица;Virovitica;Вировитица;Virovitica;0.06
+91;142;Центральная Истрия;Središnja Istra;Пазин;Pazin;0.04
+92;218;Уб;Ub;Уб;Ub;0.09
+93;34;Посавье;Posavje;Кршко;Krško;0.15
+94;285;Моравица;Moravica;Чачак;Čačak;0.1
+95;57;Загреб;Zagreb;Загреб;Zagreb;0.07
+96;7;Корушка;Koroška;Словень-Градец;Slovenj Gradec;0.12
+97;471;Крива-Паланка;Kriva Palanka;Крива-Паланка;Kriva Palanka;0.07
+98;398;Йельса;Hvar (Jelsa);Йельса;Jelsa;0.08
+99;412;Вис;Vis;Вис;Vis;0.1
+100;424;Ластово;Lastovo;Ластово;Lastovo;0.08

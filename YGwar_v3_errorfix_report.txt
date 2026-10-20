@@ -1,0 +1,26 @@
+YGwar v3 ERROR FIX PATCH — BUILD REPORT
+
+Base archive: my_own_mod_fixed_v3.zip
+Target game: Hearts of Iron IV Operation Postern v1.19.3
+Patch archive: YGwar_v3_errorfix_v5.zip
+
+Changes made from the supplied v3 archive:
+- Updated both mod descriptors to restore vanilla common/country_tags and common/countries registries. This addresses the log's 631 missing-tag messages and related equipment designer / technology / leader-tag parser errors, without creating blank duplicate country stubs.
+- Restored vanilla common/peace_conference/ai_peace definitions by removing only that replace_path directive, addressing the missing faction peace-action modifier warning.
+- Added the missing @border_conflict_time_until_cancelled macro with a conservative 30-day value, preventing the undefined dynamic token in YGwar_WTT_border_conflict.txt.
+- Added local compatibility occupation laws harsh_quotas_occupation and forced_labor_occupation because the mod replaces vanilla occupation laws but base resistance scripts still reference those IDs.
+- Added neutral compatibility ideas special_project_consumer_costs_high/medium/low because the mod replaces vanilla ideas but the base special-project scripts still reference those IDs. The placeholders prevent invalid-ID errors but do not reproduce the vanilla consumer-cost modifiers.
+- Added disabled compatibility stubs for lar_local_recruitment and SWI_building_up_military_readiness_mission to satisfy the two logged missing decision references without activating unrelated DLC behavior.
+- Removed 64 individual rows from map/buildings.txt that the supplied log explicitly reports as not over land; the game already ignored these placements. Original source line numbers: 171, 1114, 1252, 1923, 2555, 2850, 3180, 3633, 7203, 7204, 7205, 7208, 7209, 7211, 7212, 7213, 7215, 7217, 7219, 7221, 7222, 7223, 7224, 7225, 7227, 7228, 7229, 7230, 7231, 7233, 7234, 7236, 7237, 7240, 7241, 7242, 7247, 7250, 7251, 7254, 7256, 7258, 7259, 7260, 7261, 7263, 7264, 7268, 7270, 7275, 7276, 7278, 7281, 7286, 7295, 7303, 7304, 7308, 7311, 7312, 7313, 7315, 7316, 7320.
+- Corrected 50 isolated one-pixel province-map artifacts using the local neighbouring province color, limited to coordinates listed in the supplied log. No province IDs or definition.csv rows were removed.
+
+Intentionally preserved:
+- YGwar's 12 main tags and custom scenario structure.
+- replace_path directives for history/countries, history/states, history/units, history/general, map/strategicregions, map/supplyareas, common/national_focus, common/bookmarks, and other existing YGwar content. The patch does not restore vanilla focus trees or replace YGwar history/map files.
+- All other source files unless listed above.
+
+Known items not safely fixed from this log alone:
+- localisation/english/state_names_l_english.yml reports a quote error, but that path is not present in the supplied archive; it appears to come from the game installation or another active source and should be checked locally.
+- The 138 invalid vanilla focus references arise because YGwar intentionally replaces common/national_focus while some shared vanilla systems still reference vanilla focus IDs. These are not automatically recreated as dummy focuses to avoid polluting YGwar's focus tree.
+- Two zero-height texture creation errors have no corresponding malformed image in this archive's flag/map assets; no speculative image edit was made.
+- This patch was statically checked and ZIP integrity verified, but could not be launched in HOI4 in this environment. It is not a guarantee that the campaign crash is fixed; the submitted log ends at the singleplayer launch screen, before the reported campaign crash.
