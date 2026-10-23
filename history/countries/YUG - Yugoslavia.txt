@@ -1,4 +1,4 @@
-capital = 1
+capital = 40
 oob = "YUG_OOB"
 set_research_slots = 3
 set_stability = 0.60
@@ -23,7 +23,18 @@ set_popularities = {
     democratic = 10
 }
 
+add_ideas = {
+    YUG_federal_bureaucracy
+    YUG_economic_instability
+    YUG_republican_particularism
+    YUG_military_leadership_influence
+    YUG_transport_network
+    YUG_industrial_potential
+}
+
 set_variable = { federation_cohesion = 100 }
+set_variable = { YGwar_crisis_stage = 0 }
+set_variable = { YGwar_week_counter = 0 }
 set_variable = { militia_loyalty = 100 }
 
 set_technology = {

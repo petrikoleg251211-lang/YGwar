@@ -1,4 +1,13 @@
 on_actions = {
+	# Vanilla on_weekly fires for every country; the crisis tick is limited to YUG.
+	on_weekly = {
+		effect = {
+			if = {
+				limit = { tag = YUG }
+				YGwar_crisis_tick = yes
+			}
+		}
+	}
 	on_weekly_YUG = {
 		random_events = {
 			25 = YGwar.1

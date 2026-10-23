@@ -1,0 +1,143 @@
+# YGwar - Yugoslavia national spirits. Pictures reuse generic vanilla ones; replace when custom art exists.
+ideas = {
+	country = {
+		YUG_federal_bureaucracy = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { political_power_factor = -0.10 stability_factor = -0.02 }
+		}
+		YUG_streamlined_administration = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { political_power_factor = 0.05 }
+		}
+		YUG_economic_instability = {
+			picture = generic_production_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { stability_factor = -0.08 production_factory_max_efficiency_factor = -0.10 consumer_goods_factor = 0.05 }
+		}
+		YUG_stabilization_programme = {
+			picture = generic_production_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { stability_factor = 0.02 production_factory_max_efficiency_factor = -0.03 }
+		}
+		YUG_republican_particularism = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { political_power_gain = -0.25 war_support_factor = -0.05 }
+		}
+		YUG_military_leadership_influence = {
+			picture = generic_manpower_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { army_defence_factor = 0.05 stability_factor = -0.03 }
+		}
+		YUG_transport_network = {
+			picture = generic_production_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { production_speed_infrastructure_factor = 0.10 }
+		}
+		YUG_industrial_potential = {
+			picture = generic_production_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { industrial_capacity_factory = 0.05 }
+		}
+		YUG_federal_trust_crisis = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { stability_factor = -0.08 political_power_factor = -0.10 }
+		}
+		YUG_emergency_rule = {
+			picture = generic_manpower_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { political_power_factor = 0.15 stability_factor = -0.10 war_support_factor = 0.05 }
+		}
+		YUG_rail_road_programme = {
+			picture = generic_production_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { production_speed_infrastructure_factor = 0.15 }
+		}
+		YUG_modern_agriculture = {
+			picture = generic_production_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { consumer_goods_factor = -0.03 stability_factor = 0.02 }
+		}
+		YUG_export_orientation = {
+			picture = generic_production_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { production_factory_max_efficiency_factor = 0.05 industrial_capacity_factory = 0.05 stability_factor = -0.02 }
+		}
+		YUG_common_market = {
+			picture = generic_production_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { stability_factor = 0.04 production_speed_buildings_factor = 0.05 }
+		}
+		YUG_democratic_institutions = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { political_power_factor = 0.05 stability_factor = 0.05 war_support_factor = -0.03 }
+		}
+		YUG_joint_defence = {
+			picture = generic_manpower_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { army_defence_factor = 0.05 political_power_factor = -0.05 }
+		}
+		YUG_central_defence_planning = {
+			picture = generic_manpower_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { army_attack_factor = 0.05 army_defence_factor = 0.05 stability_factor = -0.03 }
+		}
+		YUG_workers_councils = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { stability_factor = 0.04 production_factory_max_efficiency_factor = 0.03 consumer_goods_factor = 0.03 }
+		}
+		YUG_trained_reserves = {
+			picture = generic_manpower_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { conscription_factor = 0.10 }
+		}
+		YUG_territorial_defence_network = {
+			picture = generic_manpower_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { army_defence_factor = 0.08 political_power_factor = -0.05 }
+		}
+		YUG_confederal_bargaining = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { political_power_factor = -0.10 stability_factor = 0.05 }
+		}
+		YUG_reformed_federation = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { stability_factor = 0.08 political_power_factor = 0.10 research_speed_factor = 0.05 }
+		}
+		YUG_centralized_state = {
+			picture = generic_manpower_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { political_power_factor = 0.15 army_attack_factor = 0.05 stability_factor = -0.04 }
+		}
+	}
+}

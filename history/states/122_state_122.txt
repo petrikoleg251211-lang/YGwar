@@ -1,0 +1,19 @@
+state={
+    id=122
+    name="STATE_122"
+    manpower=42831
+    state_category = rural
+    resources={
+        chromium = 6
+    }
+    history={
+        owner = ALB
+        add_core_of = ALB
+        victory_points = {
+            1001 2
+        }
+    }
+    provinces={
+        972 973 1001
+    }
+}

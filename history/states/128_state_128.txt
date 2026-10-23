@@ -1,0 +1,19 @@
+state={
+    id=128
+    name="STATE_128"
+    manpower=138692
+    state_category = town
+    resources={
+        oil = 4
+    }
+    history={
+        owner = ALB
+        add_core_of = ALB
+        victory_points = {
+            1250 4
+        }
+    }
+    provinces={
+        1246 1250 1252
+    }
+}

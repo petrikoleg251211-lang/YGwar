@@ -1,0 +1,30 @@
+capital = 126
+oob = "ALB_OOB"
+set_research_slots = 2
+set_stability = 0.50
+set_war_support = 0.35
+set_politics = {
+    ruling_party = communism
+    last_election = "1987.2.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    communism = 55
+    democratic = 30
+    neutrality = 15
+}
+add_ideas = {
+    partial_mobilization
+    export_focus
+    extensive_conscription
+}
+set_technology = {
+    infantry_weapons = 1
+    infantry_weapons1 = 1
+    tech_support = 1
+    tech_engineers = 1
+    tech_recon = 1
+    gw_artillery = 1
+}
+recruit_character = ALB_YGwar_leader

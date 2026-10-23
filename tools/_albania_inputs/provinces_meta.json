@@ -1,0 +1,620 @@
+{
+ "provinces": [
+  {
+   "id": 972,
+   "name": "Tropojë",
+   "ascii": "Tropoje",
+   "seat": "Bajram Curri",
+   "county": "Kukës",
+   "terrain": "mountain",
+   "coastal": true,
+   "cx": 1307.5186953062848,
+   "cy": 1387.0127287191726,
+   "area": 1257,
+   "rgb": [
+    145,
+    80,
+    178
+   ]
+  },
+  {
+   "id": 973,
+   "name": "Has",
+   "ascii": "Has",
+   "seat": "Kruma",
+   "county": "Kukës",
+   "terrain": "mountain",
+   "coastal": true,
+   "cx": 1382.8449735449735,
+   "cy": 1416.7560846560846,
+   "area": 1890,
+   "rgb": [
+    110,
+    173,
+    62
+   ]
+  },
+  {
+   "id": 974,
+   "name": "Shkodër",
+   "ascii": "Shkoder",
+   "seat": "Shkoder",
+   "county": "Shkodër",
+   "terrain": "plains",
+   "coastal": false,
+   "cx": 1262.4287081339712,
+   "cy": 1467.0665071770336,
+   "area": 2090,
+   "rgb": [
+    202,
+    135,
+    161
+   ]
+  },
+  {
+   "id": 1000,
+   "name": "Pukë",
+   "ascii": "Puke",
+   "seat": "Puke",
+   "county": "Shkodër",
+   "terrain": "mountain",
+   "coastal": false,
+   "cx": 1321.3920280332895,
+   "cy": 1446.1173893999123,
+   "area": 6849,
+   "rgb": [
+    183,
+    186,
+    129
+   ]
+  },
+  {
+   "id": 1001,
+   "name": "Kukës",
+   "ascii": "Kukes",
+   "seat": "Kukes",
+   "county": "Kukës",
+   "terrain": "mountain",
+   "coastal": true,
+   "cx": 1419.8620234050586,
+   "cy": 1473.8895809739524,
+   "area": 5298,
+   "rgb": [
+    200,
+    80,
+    106
+   ]
+  },
+  {
+   "id": 1028,
+   "name": "Lezhë",
+   "ascii": "Lezhe",
+   "seat": "Lezhe",
+   "county": "Lezhë",
+   "terrain": "plains",
+   "coastal": true,
+   "cx": 1275.0856956663408,
+   "cy": 1513.0175953079179,
+   "area": 3069,
+   "rgb": [
+    122,
+    94,
+    225
+   ]
+  },
+  {
+   "id": 1029,
+   "name": "Mirditë",
+   "ascii": "Mirdite",
+   "seat": "Rreshen",
+   "county": "Lezhë",
+   "terrain": "mountain",
+   "coastal": false,
+   "cx": 1343.4308846761453,
+   "cy": 1512.1587677725117,
+   "area": 5064,
+   "rgb": [
+    174,
+    217,
+    208
+   ]
+  },
+  {
+   "id": 1054,
+   "name": "Kurbin",
+   "ascii": "Kurbin",
+   "seat": "Lac",
+   "county": "Lezhë",
+   "terrain": "hills",
+   "coastal": false,
+   "cx": 1275.0722525804492,
+   "cy": 1561.1183970856102,
+   "area": 1647,
+   "rgb": [
+    223,
+    128,
+    230
+   ]
+  },
+  {
+   "id": 1055,
+   "name": "Mat",
+   "ascii": "Mat",
+   "seat": "Burrel",
+   "county": "Dibër",
+   "terrain": "mountain",
+   "coastal": false,
+   "cx": 1358.1254183547649,
+   "cy": 1567.6311432094417,
+   "area": 5677,
+   "rgb": [
+    244,
+    139,
+    95
+   ]
+  },
+  {
+   "id": 1080,
+   "name": "Krujë",
+   "ascii": "Kruje",
+   "seat": "Kruje",
+   "county": "Durrës",
+   "terrain": "hills",
+   "coastal": false,
+   "cx": 1292.3087357569182,
+   "cy": 1591.909386869235,
+   "area": 1843,
+   "rgb": [
+    222,
+    196,
+    162
+   ]
+  },
+  {
+   "id": 1081,
+   "name": "Dibër",
+   "ascii": "Diber",
+   "seat": "Peshkopi",
+   "county": "Dibër",
+   "terrain": "mountain",
+   "coastal": true,
+   "cx": 1436.8496672321546,
+   "cy": 1551.7521858280047,
+   "area": 7663,
+   "rgb": [
+    170,
+    133,
+    227
+   ]
+  },
+  {
+   "id": 1107,
+   "name": "Bulqizë",
+   "ascii": "Bulqize",
+   "seat": "Bulqize",
+   "county": "Dibër",
+   "terrain": "mountain",
+   "coastal": true,
+   "cx": 1411.71245855045,
+   "cy": 1609.973472288015,
+   "area": 2111,
+   "rgb": [
+    197,
+    166,
+    167
+   ]
+  },
+  {
+   "id": 1108,
+   "name": "Durrës",
+   "ascii": "Durres",
+   "seat": "Durres",
+   "county": "Durrës",
+   "terrain": "plains",
+   "coastal": true,
+   "cx": 1241.0854254972285,
+   "cy": 1609.0329312031301,
+   "area": 3067,
+   "rgb": [
+    122,
+    114,
+    246
+   ]
+  },
+  {
+   "id": 1110,
+   "name": "Tiranë",
+   "ascii": "Tirane",
+   "seat": "Tirana",
+   "county": "Tiranë",
+   "terrain": "hills",
+   "coastal": false,
+   "cx": 1313.6740137582478,
+   "cy": 1636.0131966867893,
+   "area": 7123,
+   "rgb": [
+    78,
+    78,
+    171
+   ]
+  },
+  {
+   "id": 1137,
+   "name": "Kavajë",
+   "ascii": "Kavaje",
+   "seat": "Kavaje",
+   "county": "Tiranë",
+   "terrain": "plains",
+   "coastal": true,
+   "cx": 1248.2127828503374,
+   "cy": 1678.6669313219531,
+   "area": 2519,
+   "rgb": [
+    125,
+    236,
+    237
+   ]
+  },
+  {
+   "id": 1138,
+   "name": "Librazhd",
+   "ascii": "Librazhd",
+   "seat": "Librazhd",
+   "county": "Elbasan",
+   "terrain": "mountain",
+   "coastal": true,
+   "cx": 1427.938671750874,
+   "cy": 1666.2669208770258,
+   "area": 6294,
+   "rgb": [
+    131,
+    89,
+    112
+   ]
+  },
+  {
+   "id": 1169,
+   "name": "Elbasan",
+   "ascii": "Elbasan",
+   "seat": "Elbasan",
+   "county": "Elbasan",
+   "terrain": "hills",
+   "coastal": false,
+   "cx": 1359.0917119565217,
+   "cy": 1690.55859375,
+   "area": 5888,
+   "rgb": [
+    221,
+    103,
+    121
+   ]
+  },
+  {
+   "id": 1170,
+   "name": "Peqin",
+   "ascii": "Peqin",
+   "seat": "Peqin",
+   "county": "Elbasan",
+   "terrain": "plains",
+   "coastal": false,
+   "cx": 1301.1612310519063,
+   "cy": 1706.6513550757925,
+   "area": 2177,
+   "rgb": [
+    237,
+    63,
+    44
+   ]
+  },
+  {
+   "id": 1246,
+   "name": "Lushnjë",
+   "ascii": "Lushnje",
+   "seat": "Lushnje",
+   "county": "Fier",
+   "terrain": "plains",
+   "coastal": true,
+   "cx": 1258.8200303490137,
+   "cy": 1727.8779969650986,
+   "area": 3295,
+   "rgb": [
+    67,
+    87,
+    100
+   ]
+  },
+  {
+   "id": 1247,
+   "name": "Gramsh",
+   "ascii": "Gramsh",
+   "seat": "Gramsh",
+   "county": "Elbasan",
+   "terrain": "hills",
+   "coastal": false,
+   "cx": 1368.4279588336192,
+   "cy": 1749.830760434534,
+   "area": 3498,
+   "rgb": [
+    125,
+    171,
+    164
+   ]
+  },
+  {
+   "id": 1248,
+   "name": "Pogradec",
+   "ascii": "Pogradec",
+   "seat": "Pogradec",
+   "county": "Korçë",
+   "terrain": "mountain",
+   "coastal": true,
+   "cx": 1436.8253911806544,
+   "cy": 1733.2460881934567,
+   "area": 2812,
+   "rgb": [
+    220,
+    146,
+    45
+   ]
+  },
+  {
+   "id": 1249,
+   "name": "Kuçovë",
+   "ascii": "Kucove",
+   "seat": "Kucove",
+   "county": "Berat",
+   "terrain": "plains",
+   "coastal": false,
+   "cx": 1301.3619672131147,
+   "cy": 1759.4268852459015,
+   "area": 1525,
+   "rgb": [
+    176,
+    198,
+    158
+   ]
+  },
+  {
+   "id": 1250,
+   "name": "Fier",
+   "ascii": "Fier",
+   "seat": "Fier",
+   "county": "Fier",
+   "terrain": "plains",
+   "coastal": true,
+   "cx": 1239.8659529904585,
+   "cy": 1777.754014428671,
+   "area": 4297,
+   "rgb": [
+    211,
+    171,
+    215
+   ]
+  },
+  {
+   "id": 1251,
+   "name": "Berat",
+   "ascii": "Berat",
+   "seat": "Berat",
+   "county": "Berat",
+   "terrain": "hills",
+   "coastal": false,
+   "cx": 1323.6614598125532,
+   "cy": 1796.4512922465208,
+   "area": 3521,
+   "rgb": [
+    178,
+    228,
+    105
+   ]
+  },
+  {
+   "id": 1252,
+   "name": "Mallakastër",
+   "ascii": "Mallakaster",
+   "seat": "Ballsh",
+   "county": "Fier",
+   "terrain": "hills",
+   "coastal": false,
+   "cx": 1285.468431771894,
+   "cy": 1819.3143245078072,
+   "area": 1473,
+   "rgb": [
+    68,
+    221,
+    81
+   ]
+  },
+  {
+   "id": 1253,
+   "name": "Skrapar",
+   "ascii": "Skrapar",
+   "seat": "Corovode",
+   "county": "Berat",
+   "terrain": "mountain",
+   "coastal": false,
+   "cx": 1375.368743343983,
+   "cy": 1819.8157614483493,
+   "area": 3756,
+   "rgb": [
+    106,
+    165,
+    43
+   ]
+  },
+  {
+   "id": 1254,
+   "name": "Korçë",
+   "ascii": "Korce",
+   "seat": "Korce",
+   "county": "Korçë",
+   "terrain": "hills",
+   "coastal": true,
+   "cx": 1444.0569022709874,
+   "cy": 1799.9341668793058,
+   "area": 7838,
+   "rgb": [
+    158,
+    149,
+    112
+   ]
+  },
+  {
+   "id": 1255,
+   "name": "Devoll",
+   "ascii": "Devoll",
+   "seat": "Bilisht",
+   "county": "Korçë",
+   "terrain": "hills",
+   "coastal": true,
+   "cx": 1500.8711201079623,
+   "cy": 1797.0,
+   "area": 1482,
+   "rgb": [
+    131,
+    236,
+    140
+   ]
+  },
+  {
+   "id": 1256,
+   "name": "Vlorë",
+   "ascii": "Vlore",
+   "seat": "Vlore",
+   "county": "Vlorë",
+   "terrain": "hills",
+   "coastal": true,
+   "cx": 1247.9280695486484,
+   "cy": 1867.6923901393354,
+   "area": 8397,
+   "rgb": [
+    201,
+    68,
+    146
+   ]
+  },
+  {
+   "id": 1257,
+   "name": "Tepelenë",
+   "ascii": "Tepelene",
+   "seat": "Tepelene",
+   "county": "Gjirokastër",
+   "terrain": "mountain",
+   "coastal": false,
+   "cx": 1314.89874353289,
+   "cy": 1872.0618378911063,
+   "area": 4059,
+   "rgb": [
+    136,
+    192,
+    94
+   ]
+  },
+  {
+   "id": 1258,
+   "name": "Kolonjë",
+   "ascii": "Kolonje",
+   "seat": "Erseke",
+   "county": "Korçë",
+   "terrain": "mountain",
+   "coastal": true,
+   "cx": 1436.7097399003874,
+   "cy": 1877.4097952407305,
+   "area": 3614,
+   "rgb": [
+    226,
+    216,
+    110
+   ]
+  },
+  {
+   "id": 1259,
+   "name": "Përmet",
+   "ascii": "Permet",
+   "seat": "Permet",
+   "county": "Gjirokastër",
+   "terrain": "mountain",
+   "coastal": true,
+   "cx": 1384.632307005801,
+   "cy": 1883.7427487728692,
+   "area": 4482,
+   "rgb": [
+    151,
+    150,
+    124
+   ]
+  },
+  {
+   "id": 1260,
+   "name": "Gjirokastër",
+   "ascii": "Gjirokaster",
+   "seat": "Gjirokaster",
+   "county": "Gjirokastër",
+   "terrain": "mountain",
+   "coastal": true,
+   "cx": 1361.4413955311643,
+   "cy": 1937.0346922775382,
+   "area": 5102,
+   "rgb": [
+    240,
+    172,
+    208
+   ]
+  },
+  {
+   "id": 1261,
+   "name": "Delvinë",
+   "ascii": "Delvine",
+   "seat": "Delvine",
+   "county": "Vlorë",
+   "terrain": "hills",
+   "coastal": true,
+   "cx": 1321.7899671823723,
+   "cy": 1954.4261603375528,
+   "area": 2133,
+   "rgb": [
+    231,
+    162,
+    160
+   ]
+  },
+  {
+   "id": 1262,
+   "name": "Sarandë",
+   "ascii": "Sarande",
+   "seat": "Sarande",
+   "county": "Vlorë",
+   "terrain": "hills",
+   "coastal": true,
+   "cx": 1348.3029403029402,
+   "cy": 2004.5871695871697,
+   "area": 3367,
+   "rgb": [
+    75,
+    93,
+    197
+   ]
+  }
+ ],
+ "reused_sea_ids": [
+  972,
+  973,
+  974,
+  1000,
+  1001,
+  1028,
+  1029,
+  1054,
+  1055,
+  1080,
+  1081,
+  1107,
+  1108,
+  1110,
+  1137,
+  1138,
+  1169,
+  1170
+ ],
+ "first_new_id": 1246
+}

@@ -1,0 +1,134 @@
+# YGwar - federation crisis mechanic (federation_cohesion, militia_loyalty, YGwar_crisis_stage)
+# Variables are set in history/countries/YUG - Yugoslavia.txt. Both 0..100.
+
+YGwar_add_cohesion = {
+	add_to_variable = { federation_cohesion = $VAL$ }
+	clamp_variable = { var = federation_cohesion min = 0 max = 100 }
+}
+
+YGwar_add_loyalty = {
+	add_to_variable = { militia_loyalty = $VAL$ }
+	clamp_variable = { var = militia_loyalty min = 0 max = 100 }
+}
+
+# Building helpers. Each does nothing if no state has a free slot / was already used.
+YGwar_build_civ = {
+	random_owned_controlled_state = {
+		limit = { free_building_slots = { building = industrial_complex size > 0 include_locked = yes } }
+		add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+	}
+}
+YGwar_build_mil = {
+	random_owned_controlled_state = {
+		limit = { free_building_slots = { building = arms_factory size > 0 include_locked = yes } }
+		add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+	}
+}
+# Infrastructure: each state can be picked once per call chain via a state flag (bounded by the number of states).
+YGwar_build_infra = {
+	random_owned_controlled_state = {
+		limit = { NOT = { has_state_flag = YGwar_infra_boosted } }
+		add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+		set_state_flag = YGwar_infra_boosted
+	}
+}
+
+# Weekly tick, called from on_weekly_YUG (common/on_actions). Scope: YUG.
+YGwar_crisis_tick = {
+	add_to_variable = { YGwar_week_counter = 1 }
+	if = {
+		limit = { check_variable = { YGwar_week_counter > 3 } }
+		set_variable = { YGwar_week_counter = 0 }
+		# slow monthly erosion, unless the federation has been put on a new footing or is already dissolving
+		if = {
+			limit = {
+				NOT = { has_country_flag = YGwar_federation_stabilized }
+				NOT = { has_country_flag = YGwar_dissolution_started }
+			}
+			YGwar_add_cohesion = { VAL = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = { YGwar_crisis_stage > 1 }
+				NOT = { has_country_flag = YGwar_dissolution_started }
+				NOT = { has_country_flag = YGwar_federation_stabilized }
+			}
+			YGwar_add_loyalty = { VAL = -1 }
+		}
+	}
+	# crisis stages (each fires its event once)
+	if = {
+		limit = {
+			check_variable = { YGwar_crisis_stage < 1 }
+			check_variable = { federation_cohesion < 86 }
+			NOT = { has_country_flag = YGwar_dissolution_started }
+		}
+		set_variable = { YGwar_crisis_stage = 1 }
+		country_event = { id = YGwar.10 }
+	}
+	if = {
+		limit = {
+			check_variable = { YGwar_crisis_stage < 2 }
+			check_variable = { federation_cohesion < 66 }
+			NOT = { has_country_flag = YGwar_dissolution_started }
+		}
+		set_variable = { YGwar_crisis_stage = 2 }
+		country_event = { id = YGwar.11 }
+	}
+	if = {
+		limit = {
+			check_variable = { YGwar_crisis_stage < 3 }
+			check_variable = { federation_cohesion < 41 }
+			NOT = { has_country_flag = YGwar_dissolution_started }
+			NOT = { has_country_flag = YGwar_federation_stabilized }
+		}
+		set_variable = { YGwar_crisis_stage = 3 }
+		country_event = { id = YGwar.12 }
+	}
+	# recovery: a federation that has climbed back out of crisis loses the crisis spirit
+	if = {
+		limit = {
+			check_variable = { YGwar_crisis_stage > 0 }
+			check_variable = { federation_cohesion > 90 }
+		}
+		set_variable = { YGwar_crisis_stage = 0 }
+		if = {
+			limit = { has_idea = YUG_federal_trust_crisis }
+			remove_ideas = YUG_federal_trust_crisis
+		}
+	}
+	# security forces
+	if = {
+		limit = {
+			check_variable = { militia_loyalty < 41 }
+			NOT = { has_country_flag = YGwar_loyalty_cooldown }
+			NOT = { has_country_flag = YGwar_dissolution_started }
+		}
+		country_event = { id = YGwar.15 }
+	}
+	if = {
+		limit = {
+			check_variable = { militia_loyalty < 16 }
+			NOT = { has_country_flag = YGwar_command_defiance_done }
+			NOT = { has_country_flag = YGwar_dissolution_started }
+		}
+		country_event = { id = YGwar.16 }
+	}
+}
+
+# Dissolution phases. Scope: YUG. Territory comes from tools/state_republic_map.csv.
+YGwar_orderly_dissolution_phase1 = {
+	set_country_flag = YGwar_dissolution_started
+	YGwar_secede_SVN_all = yes
+	YGwar_secede_CRO_all = yes
+	YGwar_secede_MAC_all = yes
+}
+YGwar_contested_dissolution_phase1 = {
+	set_country_flag = YGwar_dissolution_started
+	YGwar_secede_SVN_all = yes
+	YGwar_secede_CRO_core = yes
+	YGwar_secede_RSK_all = yes
+	YGwar_secede_MAC_all = yes
+	CRO = { declare_war_on = { target = YUG type = annex_everything } }
+	RSK = { declare_war_on = { target = CRO type = annex_everything } }
+}

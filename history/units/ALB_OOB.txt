@@ -1,0 +1,103 @@
+# ALB_OOB - one infantry division per county, in its main province
+
+division_template = {
+	name = "Піхотна дивізія"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1-ша піхотна дивізія"
+		location = 1000
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2-ша піхотна дивізія"
+		location = 1001
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3-ша піхотна дивізія"
+		location = 1029
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4-ша піхотна дивізія"
+		location = 1081
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5-ша піхотна дивізія"
+		location = 1108
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6-ша піхотна дивізія"
+		location = 1110
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "7-ша піхотна дивізія"
+		location = 1138
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "8-ша піхотна дивізія"
+		location = 1250
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "9-ша піхотна дивізія"
+		location = 1253
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "10-ша піхотна дивізія"
+		location = 1254
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "11-ша піхотна дивізія"
+		location = 1260
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "12-ша піхотна дивізія"
+		location = 1256
+		division_template = "Піхотна дивізія"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+}

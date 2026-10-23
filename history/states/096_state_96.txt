@@ -1,11 +1,12 @@
 state={
     id=96
     name="STATE_96"
-    manpower=42061
+    manpower=30565
     state_category = rural
     history={
         owner = YUG
         add_core_of = YUG
+        add_core_of = SVN
         victory_points = {
             7 1
         }

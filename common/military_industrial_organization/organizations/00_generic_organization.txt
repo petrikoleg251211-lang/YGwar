@@ -1223,6 +1223,7 @@ generic_infantry_equipment_organization = {
                         tag = RSB
                         tag = RSK
                         tag = HRZ
+                        tag = ALB
                 }
         }
 

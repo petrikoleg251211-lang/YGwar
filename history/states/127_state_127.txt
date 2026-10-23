@@ -1,0 +1,19 @@
+state={
+    id=127
+    name="STATE_127"
+    manpower=134612
+    state_category = town
+    resources={
+        steel = 4
+    }
+    history={
+        owner = ALB
+        add_core_of = ALB
+        victory_points = {
+            1169 5
+        }
+    }
+    provinces={
+        1138 1169 1170 1247
+    }
+}

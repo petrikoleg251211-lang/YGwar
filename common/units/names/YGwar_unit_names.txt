@@ -75,3 +75,9 @@ HRZ = {
 	fleet_names_template = YGWAR_FLEET_NAME
 	task_force_names_template = YGWAR_TASK_FORCE_NAME
 }
+
+ALB = {
+	air_wing_names_template = YGWAR_AIR_WING_NAME
+	fleet_names_template = YGWAR_FLEET_NAME
+	task_force_names_template = YGWAR_TASK_FORCE_NAME
+}

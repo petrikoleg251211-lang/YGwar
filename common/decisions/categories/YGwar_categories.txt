@@ -8,3 +8,29 @@ YGwar_militia_category = {
 		tag = YUG
 	}
 }
+
+
+YGwar_federal_category = {
+	icon = decision_category_generic
+	priority = 90
+	allowed = { always = yes }
+	visible = { tag = YUG }
+}
+
+YGwar_crisis_category = {
+	icon = decision_category_generic
+	priority = 95
+	allowed = { always = yes }
+	visible = {
+		tag = YUG
+		check_variable = { YGwar_crisis_stage > 0 }
+		NOT = { has_country_flag = YGwar_dissolution_started }
+	}
+}
+
+YGwar_republic_category = {
+	icon = decision_category_generic
+	priority = 80
+	allowed = { always = yes }
+	visible = { NOT = { tag = YUG } }
+}

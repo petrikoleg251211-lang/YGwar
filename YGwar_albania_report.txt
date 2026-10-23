@@ -1,0 +1,29 @@
+YGwar - Albania (ALB) added.  Built by tools/albania_partition.py -> albania_map.py -> albania_files.py (+ build_republic_content.py, render_full_map.py).
+
+WHAT WAS ADDED
+- 35 land provinces (36 districts on the source map minus Malesi e Madhe, see below), 12 states (121..132 = the 12 counties), tag ALB.
+- map/provinces.bmp, heightmap.bmp, world_normal.bmp edited in the Albania area only. definition.csv: 18 ids of sea provinces that Albania
+  covered completely (972 973 974 1000 1001 1028 1029 1054 1055 1080 1081 1107 1108 1110 1137 1138 1169 1170) are REUSED for Albanian land
+  provinces (so no id renumbering), 17 new ids 1246..1262 were appended. Ids are still sequential.
+- map/strategicregions/3_albania.txt (new), the 18 reused ids removed from 2_adriatic.txt.
+- positions.txt, unitstacks.txt (39 rows per province), buildings.txt (random positions per state), supply_nodes.txt (Tirane, Durres),
+  railways.txt (4 lines), airports.txt (Tirane) extended.
+- history/countries/ALB - Albania.txt (communism, 55%), history/units/ALB_OOB.txt (12 infantry divisions), leader ALB_YGwar_leader
+  (Ramiz Alia, ideology = stalinism), AI block, unit names, MIO tag lists, colour, tag registration.
+- ALB focus tree: 20 focuses, 4 national spirits (generated like the other 11 trees), en/ru localisation, state names and VP names.
+
+COMPROMISES / THINGS TO CHECK IN-GAME
+1. Malesi e Madhe (NW tip) is gone: at this scale it falls completely under the existing Montenegrin coast. Shkodër and Tropoje are small.
+   To get it back the south tip of Montenegro must be cut.
+2. Albania is drawn at 93% of its real size (scale 0.35), its east/north edges were stretched up to ~69 px to touch
+   Montenegro/Kosovo/Macedonia and clipped by them (9% of the area).
+3. buildings.txt: 6 rows (naval_base_spawn, floating_harbor, naval_base of states 13 and 70) pointed at sea provinces that no longer
+   exist and were removed. Those two states lose a naval base position.
+4. Coastal flag recomputed for every land province: 1 existing province changed.
+5. Heightmap/normal map in Albania are generated (province terrain + noise), rivers/trees/cities layers are empty (as in the rest of the mod).
+6. Building positions are random points inside each state; state files contain no buildings (like your other states).
+7. No flag files added: ALB uses the vanilla ALB flags and names. Check that the vanilla ALB tag does not clash with the mod tag in your game.
+8. Leader ideology 'stalinism' is assumed to exist in vanilla; if error.log complains, change it in common/characters/YGwar_leaders.txt.
+9. Not tested in the game (no HOI4 here). Please send error.log after the first start.
+
+RE-RUN: restore the original map/ and history/ first (the three stage scripts are single-shot).

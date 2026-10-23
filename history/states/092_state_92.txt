@@ -1,16 +1,17 @@
 state={
     id=92
     name="STATE_92"
-    manpower=89570
+    manpower=104398
     state_category = rural
     history={
         owner = YUG
         add_core_of = YUG
+        add_core_of = SER
         victory_points = {
             218 1
         }
     }
     provinces={
-        202 218 224 232 240
+        178 202 218 224 232 240
     }
 }

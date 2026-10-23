@@ -59,3 +59,8 @@ HRZ = {
     color = rgb { 120 80 40 }
     color_ui = rgb { 120 80 40 }
 }
+
+ALB = {
+    color = rgb { 170 20 60 }
+    color_ui = rgb { 170 20 60 }
+}

@@ -95,4 +95,82 @@ characters = {
             id = -1
         }
     }
+
+    YUG_dragan_vukic = {
+        name = YUG_dragan_vukic
+        country_leader = {
+            ideology = liberalism
+            traits = { popular_figurehead }
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+
+    YUG_stevan_jovanov = {
+        name = YUG_stevan_jovanov
+        country_leader = {
+            ideology = despotism
+            traits = { dictator }
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+
+    YUG_milos_radic = {
+        name = YUG_milos_radic
+        country_leader = {
+            ideology = marxism
+            traits = { silent_workhorse }
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+
+    YUG_ana_kovac = {
+        name = YUG_ana_kovac
+        country_leader = {
+            ideology = liberalism
+            traits = { political_dancer }
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+
+    YUG_petar_lazic = {
+        name = YUG_petar_lazic
+        country_leader = {
+            ideology = despotism
+            traits = { dictator }
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+
+    YUG_mirko_stankovic = {
+        name = YUG_mirko_stankovic
+        country_leader = {
+            ideology = conservatism
+            traits = { silent_workhorse }
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+
+    YUG_jelena_ilic = {
+        name = YUG_jelena_ilic
+        country_leader = {
+            ideology = conservatism
+            traits = { political_dancer }
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
+    ALB_YGwar_leader = {
+        name = ALB_YGwar_leader
+        country_leader = {
+            ideology = stalinism
+            expire = "2100.1.1"
+            id = -1
+        }
+    }
 }

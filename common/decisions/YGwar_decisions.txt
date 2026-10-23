@@ -7,7 +7,7 @@ YGwar_militia_category = {
 		priority = 5
 
 		allowed = { always = yes }
-		visible = { tag = YUG }
+		visible = { tag = YUG NOT = { has_country_flag = YGwar_dissolution_started } }
 
 		available = {
 			check_variable = { militia_loyalty < 100 }
@@ -28,5 +28,152 @@ YGwar_militia_category = {
 				}
 			}
 		}
+	}
+}
+
+
+YGwar_federal_category = {
+
+	YUG_hold_republic_talks = {
+		icon = decision_generic_political_pressure
+		priority = 10
+		allowed = { always = yes }
+		visible = { tag = YUG NOT = { has_country_flag = YGwar_dissolution_started } }
+		available = { check_variable = { federation_cohesion < 98 } }
+		cost = 40
+		days_re_enable = 60
+		complete_effect = { YGwar_add_cohesion = { VAL = 4 } }
+		ai_will_do = { factor = 1 modifier = { factor = 0 check_variable = { federation_cohesion > 90 } } }
+	}
+
+	YUG_federal_economic_programme = {
+		icon = decision_generic_construct_civilian
+		priority = 9
+		allowed = { always = yes }
+		visible = { tag = YUG NOT = { has_country_flag = YGwar_dissolution_started } }
+		available = { has_idea = YUG_economic_instability }
+		cost = 60
+		days_re_enable = 90
+		complete_effect = { YGwar_build_civ = yes YGwar_add_cohesion = { VAL = 1 } }
+		ai_will_do = { factor = 1 }
+	}
+
+	YUG_constitutional_commission = {
+		icon = decision_generic_political_pressure
+		priority = 8
+		allowed = { always = yes }
+		visible = { tag = YUG NOT = { has_country_flag = YGwar_dissolution_started } }
+		available = { NOT = { has_country_flag = YGwar_const_commission } }
+		cost = 75
+		fire_only_once = yes
+		complete_effect = { set_country_flag = YGwar_const_commission YGwar_add_cohesion = { VAL = 3 } }
+		ai_will_do = { factor = 2 }
+	}
+
+	YUG_review_budget_agreements = {
+		icon = decision_generic_political_pressure
+		priority = 7
+		allowed = { always = yes }
+		visible = { tag = YUG NOT = { has_country_flag = YGwar_dissolution_started } }
+		available = { check_variable = { federation_cohesion < 90 } }
+		cost = 40
+		days_re_enable = 90
+		complete_effect = { YGwar_add_cohesion = { VAL = 3 } YGwar_add_loyalty = { VAL = -2 } }
+		ai_will_do = { factor = 1 }
+	}
+
+	YUG_army_development_programme = {
+		icon = decision_generic_military_pressure
+		priority = 6
+		allowed = { always = yes }
+		visible = { tag = YUG NOT = { has_country_flag = YGwar_dissolution_started } }
+		available = { check_variable = { militia_loyalty < 95 } }
+		cost = 50
+		days_re_enable = 90
+		complete_effect = { YGwar_build_mil = yes YGwar_add_loyalty = { VAL = 3 } add_stability = -0.01 }
+		ai_will_do = { factor = 1 }
+	}
+}
+
+YGwar_crisis_category = {
+
+	YUG_defuse_tensions = {
+		icon = decision_generic_political_pressure
+		priority = 10
+		allowed = { always = yes }
+		available = { check_variable = { YGwar_crisis_stage > 0 } }
+		cost = 30
+		days_re_enable = 45
+		complete_effect = { YGwar_add_cohesion = { VAL = 3 } }
+		ai_will_do = { factor = 2 }
+	}
+
+	YUG_summon_emergency_talks = {
+		icon = decision_generic_political_pressure
+		priority = 9
+		allowed = { always = yes }
+		available = { check_variable = { YGwar_crisis_stage > 1 } }
+		cost = 60
+		days_re_enable = 120
+		complete_effect = { YGwar_add_cohesion = { VAL = 5 } YGwar_add_loyalty = { VAL = -2 } }
+		ai_will_do = { factor = 2 }
+	}
+
+	YUG_rebuild_trust = {
+		icon = decision_generic_political_pressure
+		priority = 8
+		allowed = { always = yes }
+		available = { has_idea = YUG_federal_trust_crisis }
+		cost = 50
+		days_re_enable = 90
+		complete_effect = { YGwar_add_loyalty = { VAL = 4 } YGwar_add_cohesion = { VAL = 2 } }
+		ai_will_do = { factor = 1 }
+	}
+
+	YUG_prepare_transitional_administration = {
+		icon = decision_generic_political_pressure
+		priority = 7
+		allowed = { always = yes }
+		available = { check_variable = { YGwar_crisis_stage > 2 } NOT = { has_country_flag = YGwar_transition_prepared } }
+		cost = 100
+		fire_only_once = yes
+		complete_effect = { set_country_flag = YGwar_transition_prepared }
+		ai_will_do = { factor = 0 }
+	}
+}
+
+YGwar_republic_category = {
+
+	YGwar_consolidate_institutions = {
+		icon = decision_generic_political_pressure
+		priority = 10
+		allowed = { always = yes }
+		available = { check_variable = { YGwar_consolidation_count < 5 } }
+		cost = 50
+		days_re_enable = 180
+		complete_effect = { add_stability = 0.02 add_to_variable = { YGwar_consolidation_count = 1 } }
+		ai_will_do = { factor = 1 }
+	}
+
+	YGwar_regional_investment = {
+		icon = decision_generic_construct_civilian
+		priority = 9
+		allowed = { always = yes }
+		available = { check_variable = { YGwar_investment_count < 4 } }
+		cost = 60
+		days_re_enable = 120
+		complete_effect = { YGwar_build_civ = yes add_to_variable = { YGwar_investment_count = 1 } }
+		ai_will_do = { factor = 1 }
+	}
+
+	YGwar_territorial_defence_drive = {
+		icon = decision_generic_military_pressure
+		priority = 8
+		allowed = { always = yes }
+		available = { check_variable = { YGwar_defence_drive_count < 3 } }
+		cost = 50
+		days_re_enable = 150
+		complete_effect = { add_war_support = 0.02 add_stability = -0.01 add_to_variable = { YGwar_defence_drive_count = 1 } }
+		ai_will_do = { factor = 1 }
 	}
 }
